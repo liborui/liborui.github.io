@@ -12,5 +12,16 @@
 	<atom:link href="https://liborui.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>SEC&#39;18 paper abstraction</title>
+      <link>https://liborui.github.io/post/20190117-sec18/</link>
+      <pubDate>Thu, 17 Jan 2019 22:23:00 +0800</pubDate>
+      
+      <guid>https://liborui.github.io/post/20190117-sec18/</guid>
+      <description>SEC&amp;rsquo;18 Supporting Edge Applications MUVR: Supporting Multi-User Mobile Virtual Reality with Resource Constrained Edge Cloud  Yong Li (University of Tennessee at Knoxville, USA), Wei Gao (University of Pittsburgh, USA)  背景： VR应用在边缘设备上渲染有计算性能和带宽受限的问题。
+解决方案概述： 通过VR帧之间的redundancy，可以在边缘设备上缓存+重用，并且只传输不同的信息，以解决性能和带宽问题。 在安卓+unity vr上做了实现。
+SafeShareRide: Edge-Based Attack Detection in Ridesharing Services  Liangkai Liu (Wayne State University), Xingzhou Zhang (Wayne State University; Institute of Computing Technology, Chinese Academy of Sciences), Mu Qiao (IBM Research - Almaden), Weisong Shi (Wayne State University)  背景： 在共享服务（uber、didi）中保护乘客安全，需要车内视频和其他信息处理。</description>
+    </item>
+    
   </channel>
 </rss>

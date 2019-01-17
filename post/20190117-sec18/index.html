@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.52" />
+  <meta name="author" content="Borui Li">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="SEC&rsquo;18 Supporting Edge Applications MUVR: Supporting Multi-User Mobile Virtual Reality with Resource Constrained Edge Cloud  Yong Li (University of Tennessee at Knoxville, USA), Wei Gao (University of Pittsburgh, USA)  背景： VR应用在边缘设备上渲染有计算性能和带宽受限的问题。
+解决方案概述： 通过VR帧之间的redundancy，可以在边缘设备上缓存&#43;重用，并且只传输不同的信息，以解决性能和带宽问题。 在安卓&#43;unity vr上做了实现。
+SafeShareRide: Edge-Based Attack Detection in Ridesharing Services  Liangkai Liu (Wayne State University), Xingzhou Zhang (Wayne State University; Institute of Computing Technology, Chinese Academy of Sciences), Mu Qiao (IBM Research - Almaden), Weisong Shi (Wayne State University)  背景： 在共享服务（uber、didi）中保护乘客安全，需要车内视频和其他信息处理。">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://liborui.github.io/post/20190117-sec18/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="https://liborui.github.io/index.xml" type="application/rss+xml" title="Borui Li">
+  <link rel="feed" href="https://liborui.github.io/index.xml" type="application/rss+xml" title="Borui Li">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://liborui.github.io/post/20190117-sec18/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Borui Li">
+  <meta property="og:url" content="https://liborui.github.io/post/20190117-sec18/">
+  <meta property="og:title" content="SEC&#39;18 paper abstraction | Borui Li">
+  <meta property="og:description" content="SEC&rsquo;18 Supporting Edge Applications MUVR: Supporting Multi-User Mobile Virtual Reality with Resource Constrained Edge Cloud  Yong Li (University of Tennessee at Knoxville, USA), Wei Gao (University of Pittsburgh, USA)  背景： VR应用在边缘设备上渲染有计算性能和带宽受限的问题。
+解决方案概述： 通过VR帧之间的redundancy，可以在边缘设备上缓存&#43;重用，并且只传输不同的信息，以解决性能和带宽问题。 在安卓&#43;unity vr上做了实现。
+SafeShareRide: Edge-Based Attack Detection in Ridesharing Services  Liangkai Liu (Wayne State University), Xingzhou Zhang (Wayne State University; Institute of Computing Technology, Chinese Academy of Sciences), Mu Qiao (IBM Research - Almaden), Weisong Shi (Wayne State University)  背景： 在共享服务（uber、didi）中保护乘客安全，需要车内视频和其他信息处理。"><meta property="og:image" content="https://liborui.github.io/img/profile.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-17T22:23:00&#43;08:00">
+  
+  <meta property="article:modified_time" content="2019-01-17T22:23:00&#43;08:00">
+  
+
+  
+
+  
+
+  <title>SEC&#39;18 paper abstraction | Borui Li</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Borui Li</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/publication">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">SEC&#39;18 paper abstraction</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Borui Li">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-01-17 22:23:00 &#43;0800 CST" itemprop="datePublished">
+    <time datetime="2019-01-17 22:23:00 &#43;0800 CST" itemprop="dateModified">
+      2019-01-17
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Borui Li">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=SEC%2718%20paper%20abstraction&amp;url=https%3a%2f%2fliborui.github.io%2fpost%2f20190117-sec18%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fliborui.github.io%2fpost%2f20190117-sec18%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fliborui.github.io%2fpost%2f20190117-sec18%2f&amp;title=SEC%2718%20paper%20abstraction"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fliborui.github.io%2fpost%2f20190117-sec18%2f&amp;title=SEC%2718%20paper%20abstraction"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=SEC%2718%20paper%20abstraction&amp;body=https%3a%2f%2fliborui.github.io%2fpost%2f20190117-sec18%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="sec-18">SEC&rsquo;18</h1>
+
+<h2 id="supporting-edge-applications">Supporting Edge Applications</h2>
+
+<h4 id="muvr-supporting-multi-user-mobile-virtual-reality-with-resource-constrained-edge-cloud">MUVR: Supporting Multi-User Mobile Virtual Reality with Resource Constrained Edge Cloud</h4>
+
+<ul>
+<li>Yong Li (University of Tennessee at Knoxville, USA), Wei Gao (University of Pittsburgh, USA)</li>
+</ul>
+
+<p>背景：
+VR应用在边缘设备上渲染有计算性能和带宽受限的问题。</p>
+
+<p>解决方案概述：
+通过VR帧之间的redundancy，可以在边缘设备上缓存+重用，并且只传输不同的信息，以解决性能和带宽问题。
+在安卓+unity vr上做了实现。</p>
+
+<h4 id="safeshareride-edge-based-attack-detection-in-ridesharing-services">SafeShareRide: Edge-Based Attack Detection in Ridesharing Services</h4>
+
+<ul>
+<li>Liangkai Liu (Wayne State University), Xingzhou Zhang (Wayne State University; Institute of Computing Technology, Chinese Academy of Sciences), Mu Qiao (IBM Research - Almaden), Weisong Shi (Wayne State University)</li>
+</ul>
+
+<p>背景：
+在共享服务（uber、didi）中保护乘客安全，需要车内视频和其他信息处理。</p>
+
+<p>解决方案概述：
+提出了一个基于边缘计算的共享汽车不安全事件检测系统，装在司机和乘客手机上。
+通过语音识别、驾驶行为检测→检测到特殊事件→触发视频录制和处理（移动端压缩，云端分析），以判断乘客的处境</p>
+
+<h4 id="cavbench-a-benchmark-suite-for-connected-and-autonomous-vehicles">CAVBench: A Benchmark Suite for Connected and Autonomous Vehicles</h4>
+
+<ul>
+<li>Yifan Wang (Institute of Computing Technology, CAS, China), Shaoshan Liu (PerceptIn, USA), Xiaopei Wu (Wayne State University, USA), Weisong Shi (Wayne State University, USA)</li>
+</ul>
+
+<p>背景：
+CAV: connected autonomous vehicle。
+CAV研究中仍旧没有一个统一的benchmark，妨碍了研究的发展。</p>
+
+<p>解决方案概述：
+CAVBench是一个测试CAV应用的系统。
+它建立了一个包含6个典型应用作为workload（定位、物体检测、物体追踪、电池诊断、音频识别和边缘视频分析），囊括了4个主要cav场景（自动驾驶，实时诊断、车内信息与娱乐的数据传输和支持第三方应用），使用4个数据集（包含图片、视频、音频和文本）的数据集。
+输出有两个：一是包含应用专属的度量，如运行时间的breakdown，可以帮助开发者查看自已应用的瓶颈；还有一个叫做QoS-resource utilization曲线，来看被测应用于被测CAV平台的效率与适配程度。</p>
+
+<p>得到一些insight：</p>
+
+<ol>
+<li>应用的操作密度很极性（polarized）→异构计算平台对CAV很重要</li>
+<li>应用的带宽消耗很大→需要高带宽支持或有效的带宽管理机制</li>
+<li>一些应用的data/instruction locality很差→cache miss很多→以后在CAV应用中需要优化cache机制(locality-局部性：CPU访问存储器时，无论是存取指令还是存取数据，所访问的存储单元都趋于聚集在一个较小的连续区域中)</li>
+</ol>
+
+<h4 id="qoe-inference-and-improvement-without-end-host-control">QoE Inference and Improvement Without End-Host Control</h4>
+
+<p>Ashkan Nikravesh (University of Michigan, USA), Qi Alfred Chen (University of California, Irvine, USA), Scott Haseley (University of Illinois at Urbana-Champaign, USA), Xiao Zhu (University of Michigan, USA), Geoffrey Challen (University of Illinois at Urbana-Champaign, USA), Z. Morley Mao (University of Michigan, USA)</p>
+
+<p>背景：
+很多时候QoS不能直接推导到QoE。如运营商的流量控制调整QoS，不一定反映在终端用户的QoE中。
+有一些场景QoS是知道的，如何得到QoE？</p>
+
+<p>解决方案概述：
+提出了一个离线的给每个被测APP建立QoE-QoS mapping模型的方法（给每个APP建一个JSON，里面包含了它如何使用的信息），还有如何利用这个模型来优化QoE-aware traffic management的方法</p>
+
+<p>结果：
+提高了视频的响应性和视频帧率</p>
+
+<h2 id="session-ii-privacy-and-security">Session II: Privacy and Security</h2>
+
+<h4 id="homepad-a-privacy-aware-smart-hub-for-home-environments">HomePad: A Privacy-Aware Smart Hub for Home Environments</h4>
+
+<p>Igor Zavalyshyn (INESC-ID / Instituto Superior Técnico, University of Lisbon), Nuno O. Duarte (INESC-ID / Instituto Superior Técnico, University of Lisbon), Nuno Santos (INESC-ID / Instituto Superior Técnico, University of Lisbon)</p>
+
+<p>背景：
+智能家居设备有隐私安全问题，用户可能在不知情的情况下隐私数据就被app使用了。</p>
+
+<p>解决方案概述：</p>
+
+<p>homepad是一个隐私敏感的智能家居hub（所有的设备都连接在hub上），它可以</p>
+
+<ol>
+<li>用户使用prolog来声明元素有向图来规定隐私数据的允许流向（白名单？）</li>
+<li>检测用户的隐私策略与应用数据流向的不同（使用一些软件工程的方法）</li>
+<li>如有不同则拒绝访问</li>
+</ol>
+
+<h4 id="vigilia-securing-smart-home-edge-computing">Vigilia: Securing Smart Home Edge Computing</h4>
+
+<p>Rahmadi Trimananda (University of California, Irvine, USA), Ali Younis (University of California, Irvine, USA), Bojun Wang (University of California, Irvine, USA), Bin Xu (University of California, Irvine, USA), Brian Demsky (University of California, Irvine, USA), Guoqing Xu (University of California, Los Angeles, USA)</p>
+
+<p>背景：
+现在有很多智能家居hub，但是容易受到攻击</p>
+
+<p>解决方案概述：
+vigilia实现了一个java中的新语法（@config），让开发者在写APP的时候就声明他它所需要的权限，然后再编译时将其转化为路由器上的规则，通过不同设备的网络权限管理来减轻受攻击面。</p>
+
+<h4 id="learning-from-differentially-private-neural-activations-with-edge-computing">Learning from Differentially Private Neural Activations with Edge Computing</h4>
+
+<p>Yunlong Mao (Nanjing University), Shanhe Yi (College of William &amp; Mary), Qun Li (College of William &amp; Mary), Jinghao Feng (Nanjing University), Fengyuan Xu (Nanjing University), Sheng Zhong (Nanjing University)</p>
+
+<p>背景：
+用户想要使用自己创建的数据集来训练人脸识别算法，移动设备是不能训练的，但直接放在云端训练又会泄露隐私</p>
+
+<p>解决方案概述：
+使用差分隐私机制来保护训练的安全
+在训练时，神经网络被使用特殊的方法在用户端和云端切开，来保证在数据上和参数上的隐私都是受到保护的</p>
+
+<h4 id="harpocrates-giving-out-your-secrets-and-keeping-them-too">Harpocrates: Giving Out Your Secrets and Keeping Them Too</h4>
+
+<p>Rufaida Ahmed (University of Utah), Zirak Zaheer (University of Utah), Richard Li (University of Utah), Robert Ricci (University of Utah)</p>
+
+<p>背景：</p>
+
+<p>CDN被用来cache静态数据，那么动态数据和算法可以用无服务器计算的方式下发到CDN上，那么就会出现</p>
+
+<ol>
+<li>函数中有隐私key可能会暴露</li>
+<li>计算可能没有如云想象的那样执行（如代码被篡改）</li>
+</ol>
+
+<p>解决方案概述：
+harpocrates就是讲active code从云下发到边的一个框架，它使用了SGX技术来保证数据和代码隐私；
+并使用了JavaScript WebWorker API来简化代码流程，让代码可以在云端和边缘跑；
+并且设计了一些应用使用harpocrates。</p>
+
+<h2 id="session-iii-video-at-the-edge">Session III: Video at the Edge</h2>
+
+<h4 id="videoedge-processing-camera-streams-using-hierarchical-clusters">VideoEdge: Processing Camera Streams using Hierarchical Clusters</h4>
+
+<p>Chien-Chun Hung (University of Southern California), Ganesh Ananthanarayanan (Microsoft Research), Peter Bodik (Microsoft Research), Leana Golubchik (University of Southern California), Minlan Yu (Harvard University), Paramvir Bahl (Microsoft Research), Matthai Philipose (Microsoft Research)</p>
+
+<p>背景：
+在视频边缘计算处理中，处理的设备往往是分层部署的，计算是分步骤进行的（如物体识别→物体追踪……），而计算的精度和开销也可以通过一些参数来调整（帧率，分辨率等）。
+如何挑选一套最好的计算步骤的排布和挑选一个最合适的视频录制参数是个问题。</p>
+
+<p>解决方案概述：
+这篇文章通过将这个问题formulate成为一个多选择多维度背包问题，并针对这个数学问题提出一个启发式算法来改进算法实时性来很好的解决上述问题。</p>
+
+<h4 id="application-aware-iot-camera-virtualization-for-video-analytics-edge-computing">Application-Aware IoT Camera Virtualization for Video Analytics Edge Computing</h4>
+
+<p>Si Young Jang (KAIST), Yoonhyung Lee (KAIST), Byoungheon Shin (KAIST), Dongman Lee (KAIST)</p>
+
+<p>背景：现在边缘设备上的摄像头只能服务于一个应用</p>
+
+<p>解决方案概述：
+提出了一个“ontology-based application description model”来虚拟化摄像头，使得应用与摄像头解耦。
+并且提出了一个摄像头重设置机制来动态的调整摄像头的参数以应对环境（如亮度）的改变
+实验结果说明其在环境变化是摄像头参数的重设置速度是以前的2.8倍</p>
+
+<h4 id="edge-based-discovery-of-training-data-for-machine-learning">Edge-Based Discovery of Training Data for Machine Learning</h4>
+
+<p>Ziqiang Feng (Carnegie Mellon University, USA), Shilpa George (Carnegie Mellon University, USA), Jan Harkes (Carnegie Mellon University, USA), Padmanabhan Pillai (Intel Labs, USA), Roberta Klatzky (Carnegie Mellon University, USA), Mahadev Satyanarayanan (Carnegie Mellon University, USA)</p>
+
+<p>背景：
+如何从元数据生成一个足够大的带标注的训练数据集是一个很大的问题，但是标注数据很多时候需要领域知识，这就造成了人力不够的问题。</p>
+
+<p>解决方案概述：
+针对训练数据生成的问题，这篇文章针对来源于网络的各种不同的数据（如视频、音频……），通过在边缘设备上提前丢掉一些与标注不相关的数据可以显著提高一个专家来生成训练数据集效率
+将专家的注意力作为最关键的优化指标。本文提出了Eureca，一个使用了边缘计算的可交互式系统来极大的提高专家人员生成训练数据集的效率。
+（这篇paper需要再看一下，没看懂）</p>
+
+<h4 id="bandwidth-efficient-live-video-analytics-for-drones-via-edge-computing">Bandwidth-Efficient Live Video Analytics for Drones Via Edge Computing</h4>
+
+<p>Junjue Wang (Carnegie Mellon University), Ziqiang Feng (Carnegie Mellon University), Zhuo Chen (Carnegie Mellon University), Shilpa George (Carnegie Mellon University), Mihir Bala (University of Michigan), Padmanabhan Pillai (Intel Labs), Shao-Wen Yang (Intel Labs), Mahadev Satyanarayanan (Carnegie Mellon University)</p>
+
+<p>背景：</p>
+
+<p>使用无人机来进行视频监控会遇到无线带宽、能耗、精确度和结果实时性的问题。</p>
+
+<p>解决方案概述：</p>
+
+<p>本文提出了四个策略，来让基于无人机的和基于边缘设备的视频共同处理能够节省带宽，提高scalability：</p>
+
+<ol>
+<li>early-discard</li>
+<li>just-in-time-learning</li>
+<li>reachback</li>
+<li>context-aware</li>
+</ol>
+
+<h2 id="session-iv-edge-computing-and-iot">Session IV: Edge Computing and IoT</h2>
+
+<h4 id="aggio-a-coupon-safe-for-privacy-preserving-smart-retail-environments">Aggio: A Coupon Safe for Privacy-Preserving Smart Retail Environments</h4>
+
+<p>Albert Harris (University of Illinois at Urbana-Champaign), Robin Snader (Athetized Networks), Robin Kravets (University of Illinois at Urbana-Champaign)</p>
+
+<p>背景：</p>
+
+<p>电子化的超市非常吸引人→如果用户靠近商品的时候显示该商品的电子优惠券是非常好的商业行为</p>
+
+<p>解决方案概述：</p>
+
+<p>Aggio：一个基于边缘计算的优惠券分发系统。
+它主要使用了密码学算法来保证：安全性、用户组（会员等级）的控制并由此减少通讯量。
+<img src="evernotecid://80F292E1-A2A6-40BA-A466-FD4D080733C1/appyinxiangcom/18868366/ENResource/p8355" alt="2b909162fa1d0eb491bdb3209c7cf6c0.png" /></p>
+
+<h4 id="from-cell-towers-to-smart-street-lamps-placing-cloudlets-on-existing-urban-infrastructures">From Cell Towers to Smart Street Lamps: Placing Cloudlets on Existing Urban Infrastructures</h4>
+
+<p>Julien Gedeon (Technische Universität Darmstadt, Germany), Michael Stein (Technische Universität Darmstadt, Germany), Jeff Krisztinkovics (Technische Universität Darmstadt, Germany), Patrick Felka (Goethe-Universität Frankfurt am Main), Katharina Keller (Goethe-Universität Frankfurt am Main), Christian Meurisch (Technische Universität Darmstadt, Germany), Lin Wang (Technische Universität Darmstadt, Germany), Max Mühlhäuser (Technische Universität Darmstadt, Germany)</p>
+
+<p>背景：</p>
+
+<p>研究边缘计算设备在真实城市中的基础设施上（电信基站、商用路由器和智能路灯）的部署问题。</p>
+
+<p>解决方案概述：</p>
+
+<p>贡献1：基于一个城市的基础设施位置信息和两个移动应用得到的移动路径信息来对城市级别的边缘节点的部署可能性，并得到一些insight
+贡献2：提出了一个充分考虑设备异构性（通信距离，资源大小，价格）的部署算法，以达到用户QoE和部署价格的tradeoff</p>
+
+<h4 id="in-situ-resource-provisioning-with-adaptive-scale-out-for-regional-iot-services">In-Situ Resource Provisioning with Adaptive Scale-out for Regional IoT Services</h4>
+
+<p>Yugo Nakamura (Nara Institute of Science and Technology, Japan), Teruhiro Mizumoto (Nara Institute of Science and Technology, Japan), Hirohiko Suwa (Nara Institute of Science and Technology), Yutaka Arakawa (Nara Institute of Science and Technology, Japan), Hirozumi Yamaguchi (Osaka University, Japan), Keiichi Yasumoto (Nara Institute of Science and Technology, Japan)</p>
+
+<p>背景：</p>
+
+<p>区域性的IoT服务：及时返回给用户时空信息的查询结果（如景区内导航与讲解）
+区域IoT服务需要按需分配资源，但是IoT设备通常是异构的（计算能力，网络情况，部署密度），如何在满足实时性的条件下，基于服务的资源需求来按需分配计算资源是（deRISP问题）困难的。</p>
+
+<p>解决方案概述：</p>
+
+<p>针对上述问题本文formulate并给出了算法，进一步，针对面对变化的需求是如何调整分配方法（deRISP+）的问题也提出了一个在线的资源供给方法基于禁忌搜索（tabu search）的计算调度算法。</p>
+
+<h4 id="scalable-edge-computing-for-low-latency-data-dissemination-in-topic-based-publish-subscribe">Scalable Edge Computing for Low Latency Data Dissemination in Topic-Based Publish/Subscribe</h4>
+
+<p>Shweta Khare (Vanderbilt University), Hongyang Sun (Vanderbilt University), Kaiwen Zhang (Ecole de technologie sup´erieure), Julien Gascon-Samson (University of British Columbia), Aniruddha Gokhale (Vanderbilt University), Xenofon Koutsoukos (Vanderbilt University), Hamzah Abdelaziz (Vanderbilt University)</p>
+
+<p>背景：</p>
+
+<p>物联网数据通常在端收集，边缘处理后对端设备进行控制，这样就形成了一个闭环，也恰好符合发布-订阅模型。
+为了满足服务的实时性要求，本文提出了一个边缘计算系统来作为发布-订阅模式的broker，来平衡发布与处理的负载，并且能够保证消息发布延迟的qos达到用户要求。</p>
+
+<p>解决方案概述：</p>
+
+<ol>
+<li>使用敏感分析法分析了发布频率、订阅者数量、单消息处理时间和背景负载对于延迟的影响</li>
+<li>一个延迟预测模型</li>
+<li>对于k个topic如何选择最小数量的broker进行排布就可以满足用户延迟要求的formulation和解法</li>
+</ol>
+
+<h2 id="session-v-infrastructure-and-placement">Session V: Infrastructure and Placement</h2>
+
+<h4 id="dependency-mining-for-service-resilience-at-the-edge">Dependency Mining for Service Resilience at the Edge</h4>
+
+<p>Atakan Aral (Vienna University of Technology, Austria), Ivona Brandic (Vienna University of Technology, Austria)</p>
+
+<p>背景：
+边缘计算是用稳定性来换取低延迟和grographical prevalence，因此对于边缘系统的failure的适应能力需要进行一个很好的建模</p>
+
+<p>解决方案概述：
+本文</p>
+
+<ol>
+<li>通过分析历史failure数据、使用动态贝叶斯网络建立时间相关性模型对多个边缘节点同时failure的概率进行建模</li>
+<li>提出了两种边缘计算中的replica算法来优化failure概率或redundancy代价。</li>
+</ol>
+
+<p>（看起来就是云计算的人直接过来搬到边缘端在做一遍）</p>
+
+<h4 id="cooperative-competitive-task-allocation-in-edge-computing-for-delay-sensitive-social-sensing">Cooperative-Competitive Task Allocation in Edge Computing for Delay-Sensitive Social Sensing</h4>
+
+<p>Daniel (Yue) Zhang (University of Notre Dame), Yue Ma (University of Notre Dame), Chao Zheng (University of Notre Dame), Yang Zhang (University of Notre Dame), X. Sharon Hu (University of Notre Dame), Dong Wang (University of Notre Dame)</p>
+
+<p>背景：
+边缘设备之间的互相协作有如下几个背景：</p>
+
+<ol>
+<li>彼此之间任务目标可能会冲突</li>
+<li>彼此之间不肯互相协作，因为各有各的任务，还有隐私问题</li>
+<li>边缘设备的可用资源量随时间一直变化</li>
+</ol>
+
+<p>解决方案概述：
+为了解决这些问题，本文提出了一个基于博弈论的任务分配框架来满足任务的延迟需求，它主要有：</p>
+
+<ol>
+<li>动态反馈刺激</li>
+<li>去中心化的沟通机制</li>
+<li>审慎的支付函数（payoff，博弈论名词）</li>
+</ol>
+
+<h4 id="portable-energy-aware-cluster-based-edge-computers">Portable Energy-Aware Cluster-Based Edge Computers</h4>
+
+<p>Thomas Rausch (TU Wien), Cosmin Avasalcai (TU Wien), Schahram Dustdar (TU Wien)
+背景：
+边缘计算，计算为核心。但是边缘计算设备并不是非常常见</p>
+
+<p>解决方案概述：
+设计了一个基于集群的便携式的边缘计算设备，有以下两个特点：</p>
+
+<ol>
+<li>energy-aware</li>
+<li>cluster-based→load balancing</li>
+</ol>
+
+<p>（可以看看）</p>
+
+<h4 id="f-mstorm-feedback-based-online-distributed-mobile-stream-processing">F-MStorm: Feedback-Based Online Distributed Mobile Stream Processing</h4>
+
+<p>Mengyuan Chao (Texas A&amp;M University, USA), Chen Yang (Texas A&amp;M University, USA), Yukun Zeng (Texas A&amp;M University), Radu Stoleru (Texas A&amp;M University)</p>
+
+<p>背景：</p>
+
+<p>现有的移动端流式数据分布式处理框架为MStorm，但它是静态设置和调度的，效率不高</p>
+
+<p>解决方案概述：</p>
+
+<p>本文提出了F-MStorm，一个基于反馈的在线分布式移动流处理系统，使用反馈调整的机制来动态调整设置、调度和运行等级。
+在安卓上实现出来了。</p>
+
+<h2 id="session-vi-edge-cloud-interactions">Session VI: Edge-Cloud Interactions</h2>
+
+<h4 id="scalability-and-performance-evaluation-of-edge-cloud-systems-for-latency-constrained-applications">Scalability and Performance Evaluation of Edge Cloud Systems for Latency Constrained Applications</h4>
+
+<p>Sumit Maheshwari (Rutgers University, USA), Dipankar Raychaudhuri (Rutgers University, USA), Ivan Seskar (Rutgers University, USA), Francesco Bronzino (Inria, France)</p>
+
+<p>使用城市（芝加哥）中的边缘计算设备（AP）的部署位置和带宽等数据来分必须云-边计算系统的性能与可扩展性。</p>
+
+<ol>
+<li>单云系统比边间带宽低的单边系统性能更好</li>
+<li>如果边有足够的计算资源且边间带宽较大，那么会有一个云边任务分配算法来达到全局最优</li>
+<li>不提高带宽只增加边缘设备的数量只会造成网络更加拥挤，降低系统性能</li>
+</ol>
+
+<h4 id="costless-optimizing-cost-of-serverless-computing-through-function-fusion-and-placement">Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement</h4>
+
+<p>Tarek Elgamal (University of Illinois Urbana champaign)</p>
+
+<p>背景：
+无服务器计算最近比较流行，因为它不需要管理计算底层的资源，只需要关注代码逻辑的开发。但是它的计费方式和云计算不一样（使用调用次数和占用资源一起计费）</p>
+
+<p>解决方案概述：</p>
+
+<p>本文针对AWS Lambda（一个较为成熟的无服务器计算服务），提出了一个可以通过优化</p>
+
+<ol>
+<li>函数融合</li>
+<li>将函数分配到云和边的调度</li>
+<li>分配给每个函数内存</li>
+</ol>
+
+<p>来获得最优的价格</p>
+
+<h4 id="an-envy-free-auction-mechanism-for-resource-allocation-in-edge-computing-systems">An Envy-Free Auction Mechanism for Resource Allocation in Edge Computing Systems</h4>
+
+<p>Tayebeh Bahreini (Wayne State University, USA), Hossein Badri (Wayne State University, USA), Daniel Grosu (Wayne State University, USA)</p>
+
+<p>背景：</p>
+
+<p>在边缘计算场景中，如何为云、边服务合适的定价来最大化效益是一个很重要的问题，一个较好的解决方案就是使用竞价机制（拍卖）。</p>
+
+<p>解决方案概述：</p>
+
+<p>本文提出了一个较好的资源分割和定价的机制，以保证用户的：</p>
+
+<ol>
+<li>个体理性，保证每个用户都会参与拍卖</li>
+<li>不受嫉妒，保证拍卖完成后每个用户都不会因其他人的竞价而嫉妒</li>
+</ol>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/profile.png" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Borui Li</a></h5>
+    <h6 class="card-subtitle">PhD student</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:librchn@gmail.com" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/liborui" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/borui-li-9b6489148/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.07fbebbbf71b021c8836e1d7ecffa489.js"></script>
+
+    
+
+  </body>
+</html>
+
