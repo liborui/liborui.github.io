@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuxuan Zhang | Borui Li</title>
+    <link>https://liborui.github.io/authors/yuxuan-zhang/</link>
+      <atom:link href="https://liborui.github.io/authors/yuxuan-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuxuan Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liborui.github.io/img/icon-192.png</url>
+      <title>Yuxuan Zhang</title>
+      <link>https://liborui.github.io/authors/yuxuan-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Demo: Integrated Development of IoT Applications with OneLink</title>
+      <link>https://liborui.github.io/publication/guan-2019-demo/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/guan-2019-demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

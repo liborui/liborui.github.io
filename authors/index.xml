@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Borui Li</title>
+    <link>https://liborui.github.io/authors/</link>
+      <atom:link href="https://liborui.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liborui.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://liborui.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>**Borui Li**</title>
+      <link>https://liborui.github.io/authors/borui-li/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/authors/borui-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaoyang Guan</title>
+      <link>https://liborui.github.io/authors/gaoyang-guan/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/authors/gaoyang-guan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jiajun Bu</title>
+      <link>https://liborui.github.io/authors/jiajun-bu/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/authors/jiajun-bu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wei Dong</title>
+      <link>https://liborui.github.io/authors/wei-dong/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/authors/wei-dong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yi Gao</title>
+      <link>https://liborui.github.io/authors/yi-gao/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/authors/yi-gao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yuxuan Zhang</title>
+      <link>https://liborui.github.io/authors/yuxuan-zhang/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/authors/yuxuan-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liborui.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Borui Li&lt;/strong&gt;(李博睿) is currently a PhD student at &lt;a href=&#34;http://www.emnets.org/&#34; target=&#34;_blank&#34;&gt;EmNets Research Group&lt;/a&gt; supervised by &lt;a href=&#34;http://www.emnets.org/dongw/&#34; target=&#34;_blank&#34;&gt;Prof. Wei Dong&lt;/a&gt; in the College of Computer Science, Zhejiang University.&lt;/p&gt;
+
+&lt;p&gt;He recieved the B.S. degree in 2017 from Bell Honors School, Nanjing University of Posts and Telecommunications, Nanjing, China.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

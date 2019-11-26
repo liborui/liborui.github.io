@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Borui Li</title>
+    <link>https://liborui.github.io/project/</link>
+      <atom:link href="https://liborui.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>https://liborui.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://liborui.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>LinkLab</title>
+      <link>https://liborui.github.io/project/linklab/linklab/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0800</pubDate>
+      <guid>https://liborui.github.io/project/linklab/linklab/</guid>
+      <description>&lt;p&gt;LinkLab (&lt;a href=&#34;http://linklab.tinylink.cn/&#34; target=&#34;_blank&#34;&gt;Home Page&lt;/a&gt;) is a testbed for remotely developing and experimenting IoT applications.
+With LinkLab, IoT developers can write the application code on Web IDE, compile the code on cloud, and burn the Binary File to remote devices.&lt;/p&gt;
+
+&lt;p&gt;LinkLab focuses on providing developers with a user-friendly programming and experimenting environment by supplying multi-granularity allocation, naming mechanism, backup channel via USB, WebIDE, etc.&lt;/p&gt;
+
+&lt;p&gt;LinkLab consists of 3 parts: IoT Devices, LinkLab Infrastructure and Web IDE.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
