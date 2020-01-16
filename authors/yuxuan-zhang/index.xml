@@ -5,7 +5,7 @@
     <link>https://liborui.github.io/authors/yuxuan-zhang/</link>
       <atom:link href="https://liborui.github.io/authors/yuxuan-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuxuan Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liborui.github.io/img/icon-192.png</url>
       <title>Yuxuan Zhang</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title> Integrating Device, Cloud, and Client Development for IoT Applications with OneLink</title>
+      <link>https://liborui.github.io/publication/mobicom20-onelink/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/mobicom20-onelink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Demo: Integrated Development of IoT Applications with OneLink</title>
-      <link>https://liborui.github.io/publication/guan-2019-demo/</link>
+      <link>https://liborui.github.io/publication/ewsn19-onelink/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/guan-2019-demo/</guid>
+      <guid>https://liborui.github.io/publication/ewsn19-onelink/</guid>
       <description></description>
     </item>
     
