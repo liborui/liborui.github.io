@@ -5,18 +5,26 @@
     <link>https://liborui.github.io/authors/wei-dong/</link>
       <atom:link href="https://liborui.github.io/authors/wei-dong/index.xml" rel="self" type="application/rss+xml" />
     <description>Wei Dong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/img/icon-192.png</url>
+      <url>img/map[docs_section_pager:%!s(bool=true) gravatar:%!s(bool=false) link_authors:%!s(bool=true) menu_align_right:%!s(bool=false) plugins_js:[] reading_time:%!s(bool=true) section_pager:%!s(bool=false) shape:square sharing:%!s(bool=true)]</url>
       <title>Wei Dong</title>
       <link>https://liborui.github.io/authors/wei-dong/</link>
     </image>
     
     <item>
-      <title> Integrating Device, Cloud, and Client Development for IoT Applications with OneLink</title>
-      <link>https://liborui.github.io/publication/mobicom20-onelink/</link>
+      <title>EdgeProg: Edge-centric Programming for IoT Applications</title>
+      <link>https://liborui.github.io/publication/icdcs20-edgeprog/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/icdcs20-edgeprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
+      <link>https://liborui.github.io/publication/mobicom20-tinylink2/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/mobicom20-onelink/</guid>
+      <guid>https://liborui.github.io/publication/mobicom20-tinylink2/</guid>
       <description></description>
     </item>
     

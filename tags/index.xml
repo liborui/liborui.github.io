@@ -7,34 +7,10 @@
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0800</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/img/icon-192.png</url>
+      <url>img/map[docs_section_pager:%!s(bool=true) gravatar:%!s(bool=false) link_authors:%!s(bool=true) menu_align_right:%!s(bool=false) plugins_js:[] reading_time:%!s(bool=true) section_pager:%!s(bool=false) shape:square sharing:%!s(bool=true)]</url>
       <title>Tags</title>
       <link>https://liborui.github.io/tags/</link>
     </image>
-    
-    <item>
-      <title>IoT</title>
-      <link>https://liborui.github.io/tags/iot/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0800</pubDate>
-      <guid>https://liborui.github.io/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LinkLab</title>
-      <link>https://liborui.github.io/tags/linklab/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0800</pubDate>
-      <guid>https://liborui.github.io/tags/linklab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>system</title>
-      <link>https://liborui.github.io/tags/system/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0800</pubDate>
-      <guid>https://liborui.github.io/tags/system/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

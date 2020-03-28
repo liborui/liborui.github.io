@@ -7,7 +7,7 @@
     <description>system</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0800</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/img/icon-192.png</url>
+      <url>img/map[docs_section_pager:%!s(bool=true) gravatar:%!s(bool=false) link_authors:%!s(bool=true) menu_align_right:%!s(bool=false) plugins_js:[] reading_time:%!s(bool=true) section_pager:%!s(bool=false) shape:square sharing:%!s(bool=true)]</url>
       <title>system</title>
       <link>https://liborui.github.io/tags/system/</link>
     </image>
@@ -17,11 +17,46 @@
       <link>https://liborui.github.io/project/linklab/linklab/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0800</pubDate>
       <guid>https://liborui.github.io/project/linklab/linklab/</guid>
-      <description>&lt;p&gt;LinkLab (&lt;a href=&#34;http://linklab.tinylink.cn/&#34; target=&#34;_blank&#34;&gt;Home Page&lt;/a&gt;) is a testbed for remotely developing and experimenting IoT applications.
+      <description>&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-screenshot-of-linklab&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://liborui.github.io/img/linklab1.png&#34; data-caption=&#34;Screenshot of LinkLab&#34;&gt;
+
+
+  &lt;img src=&#34;https://liborui.github.io/img/linklab1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Screenshot of LinkLab
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+LinkLab (
+&lt;a href=&#34;http://linklab.tinylink.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Home Page&lt;/a&gt;) is a testbed for remotely developing and experimenting IoT applications.
 With LinkLab, IoT developers can write the application code on Web IDE, compile the code on cloud, and burn the Binary File to remote devices.&lt;/p&gt;
-
 &lt;p&gt;LinkLab focuses on providing developers with a user-friendly programming and experimenting environment by supplying multi-granularity allocation, naming mechanism, backup channel via USB, WebIDE, etc.&lt;/p&gt;
-
 &lt;p&gt;LinkLab consists of 3 parts: IoT Devices, LinkLab Infrastructure and Web IDE.&lt;/p&gt;
 </description>
     </item>
