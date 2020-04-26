@@ -7,7 +7,7 @@
     <description>Borui Li</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright>
     <image>
-      <url>img/map[docs_section_pager:%!s(bool=true) gravatar:%!s(bool=false) link_authors:%!s(bool=true) menu_align_right:%!s(bool=false) plugins_js:[] reading_time:%!s(bool=true) section_pager:%!s(bool=false) shape:square sharing:%!s(bool=true)]</url>
+      <url>https://liborui.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Borui Li</title>
       <link>https://liborui.github.io/</link>
     </image>
@@ -104,7 +104,7 @@ Results show that TinyLink 2.0 can speed up IoT development significantly compar
     <item>
       <title>TinyLink</title>
       <link>https://liborui.github.io/project/tinylink/tinylink/</link>
-      <pubDate>Sun, 26 Nov 2017 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 26 Apr 2017 09:34:23 +0800</pubDate>
       <guid>https://liborui.github.io/project/tinylink/tinylink/</guid>
       <description>&lt;p&gt;Rapid development is essential for IoT (Internet of Things) application developers to obtain first-mover advantages and reduce the development cost.&lt;/p&gt;
 &lt;p&gt;We present TinyLink (

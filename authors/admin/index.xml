@@ -7,10 +7,27 @@
     <description>Borui Li</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright>
     <image>
-      <url>img/map[docs_section_pager:%!s(bool=true) gravatar:%!s(bool=false) link_authors:%!s(bool=true) menu_align_right:%!s(bool=false) plugins_js:[] reading_time:%!s(bool=true) section_pager:%!s(bool=false) shape:square sharing:%!s(bool=true)]</url>
+      <url>https://liborui.github.io/authors/admin/avatar_huda7beed27976a92d53b4b585c9007596_126494_270x270_fill_lanczos_center_2.png</url>
       <title>Borui Li</title>
       <link>https://liborui.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>TinyLink</title>
+      <link>https://liborui.github.io/project/tinylink/tinylink/</link>
+      <pubDate>Wed, 26 Apr 2017 09:34:23 +0800</pubDate>
+      <guid>https://liborui.github.io/project/tinylink/tinylink/</guid>
+      <description>&lt;p&gt;Rapid development is essential for IoT (Internet of Things) application developers to obtain first-mover advantages and reduce the development cost.&lt;/p&gt;
+&lt;p&gt;We present TinyLink (
+&lt;a href=&#34;http://tinylink.cn/TinyLink/view/en/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Home Page&lt;/a&gt;), a holistic system for rapid development of IoT applications.
+The key idea of TinyLink is to use a top-down approach for designing both the hardware and the software of IoT applications.
+Developers write the application code in a C-like language to specify the key logic of their applications, without dealing with the details of the specific hardware components.
+Taking the application code as input, TinyLink automatically generates the hardware configuration as well as the binary program executable on the target hardware platform.
+TinyLink provides unified APIs for applications to interact with the underlying hardware components.&lt;/p&gt;
+&lt;p&gt;We implement TinyLink and evaluate its performance using realworld IoT applications.
+Results show that: (1) TinyLink achieves rapid development of IoT applications, reducing 52.58% of lines of code in average compared with traditional approaches; (2) TinyLink searches a much larger design space and thus can generate a superior solution for the hardware configuration, compared with the state-of-the-art approach; (3) TinyLink incurs acceptable overhead in terms of execution time and program memory.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
