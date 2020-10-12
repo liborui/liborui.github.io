@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Borui Li</title>
+    <link>https://liborui.github.io/author/</link>
+      <atom:link href="https://liborui.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Borui Li</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2020</copyright>
+    <image>
+      <url>https://liborui.github.io/author/avatar_huda7beed27976a92d53b4b585c9007596_126494_270x270_fill_lanczos_center_2.png</url>
+      <title>Borui Li</title>
+      <link>https://liborui.github.io/author/</link>
+    </image>
+    
+  </channel>
+</rss>
