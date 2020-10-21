@@ -1,71 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Borui Li</title>
+    <title>Authors | Borui Li</title>
     <link>https://liborui.github.io/authors/</link>
-    <description>Recent content in Authors on Borui Li</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy;{year}</copyright>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://liborui.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>**Borui Li**, Wei Dong</title>
-      <link>https://liborui.github.io/author/borui-li-wei-dong/</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://liborui.github.io/author/borui-li-wei-dong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wei Dong</title>
-      <link>https://liborui.github.io/author/wei-dong/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://liborui.github.io/author/wei-dong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wei Dong, **Borui Li**, Gaoyang Guan, Zhihao Cheng, Jiadong Zhang, Yi Gao</title>
-      <link>https://liborui.github.io/author/wei-dong-borui-li-gaoyang-guan-zhihao-cheng-jiadong-zhang-yi-gao/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://liborui.github.io/author/wei-dong-borui-li-gaoyang-guan-zhihao-cheng-jiadong-zhang-yi-gao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaoyang Guan, **Borui Li**, Yi Gao, Yuxuan Zhang, Jiajun Bu, Wei Dong</title>
-      <link>https://liborui.github.io/author/gaoyang-guan-borui-li-yi-gao-yuxuan-zhang-jiajun-bu-wei-dong/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://liborui.github.io/author/gaoyang-guan-borui-li-yi-gao-yuxuan-zhang-jiajun-bu-wei-dong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaoyang Guan, Yuxuan Zhang, **Borui Li**, Wei Dong, Yi Gao, Jiajun Bu</title>
-      <link>https://liborui.github.io/author/gaoyang-guan-yuxuan-zhang-borui-li-wei-dong-yi-gao-jiajun-bu/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://liborui.github.io/author/gaoyang-guan-yuxuan-zhang-borui-li-wei-dong-yi-gao-jiajun-bu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://liborui.github.io/author/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://liborui.github.io/author/</guid>
-      <description>Borui Li(李博睿) is currently a PhD student at EmNets Research Group supervised by Prof. Wei Dong in the College of Computer Science, Zhejiang University.
-He recieved the B.S. degree in 2017 from Bell Honors School, Nanjing University of Posts and Telecommunications, Nanjing, China.</description>
-    </item>
+      <atom:link href="https://liborui.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liborui.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://liborui.github.io/authors/</link>
+    </image>
     
   </channel>
 </rss>
