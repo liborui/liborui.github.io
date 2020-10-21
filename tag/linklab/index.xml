@@ -1,27 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LinkLab | Borui Li</title>
+    <title>LinkLab on Borui Li</title>
     <link>https://liborui.github.io/tag/linklab/</link>
-      <atom:link href="https://liborui.github.io/tag/linklab/index.xml" rel="self" type="application/rss+xml" />
-    <description>LinkLab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://liborui.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>LinkLab</title>
-      <link>https://liborui.github.io/tag/linklab/</link>
-    </image>
+    <description>Recent content in LinkLab on Borui Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year}</copyright>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://liborui.github.io/tag/linklab/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>LinkLab</title>
       <link>https://liborui.github.io/project/linklab/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
       <guid>https://liborui.github.io/project/linklab/</guid>
-      <description>&lt;p&gt;LinkLab (&lt;a href=&#34;http://linklab.tinylink.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Home Page&lt;/a&gt;) is a testbed for remotely developing and experimenting IoT applications.
-With LinkLab, IoT developers can write the application code on Web IDE, compile the code on cloud, and burn the Binary File to remote devices.&lt;/p&gt;
-&lt;p&gt;LinkLab focuses on providing developers with a user-friendly programming and experimenting environment by supplying multi-granularity allocation, naming mechanism, backup channel via USB, WebIDE, etc.&lt;/p&gt;
-&lt;p&gt;LinkLab consists of 3 parts: IoT Devices, LinkLab Infrastructure and Web IDE.&lt;/p&gt;
-</description>
+      <description>LinkLab is a testbed for remotely developing and experimenting IoT applications.</description>
     </item>
     
   </channel>

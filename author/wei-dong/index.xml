@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wei Dong | Borui Li</title>
+    <title>Wei Dong on Borui Li</title>
     <link>https://liborui.github.io/author/wei-dong/</link>
-      <atom:link href="https://liborui.github.io/author/wei-dong/index.xml" rel="self" type="application/rss+xml" />
-    <description>Wei Dong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://liborui.github.io/author/wei-dong/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg</url>
-      <title>Wei Dong</title>
-      <link>https://liborui.github.io/author/wei-dong/</link>
-    </image>
+    <description>Recent content in Wei Dong on Borui Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year}</copyright>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://liborui.github.io/author/wei-dong/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
