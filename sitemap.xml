@@ -1,146 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://liborui.github.io/publication-type/1/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication/iotj20-autolink/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/authors/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/author/borui-li-wei-dong/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication_types/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication/tosn20-tinylink/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/author/wei-dong-borui-li-gaoyang-guan-zhihao-cheng-jiadong-zhang-yi-gao/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/tag/autolink/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/project/autolink/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/tag/iot/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/project/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/tag/rapid-development/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/tags/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/tag/tinylink/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/project/tinylink2.0/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication/icdcs20-edgeprog/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication/mobicom20-tinylink2/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/author/gaoyang-guan-borui-li-yi-gao-yuxuan-zhang-jiajun-bu-wei-dong/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/tag/linklab/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/project/linklab/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication/ewsn19-onelink/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/author/gaoyang-guan-yuxuan-zhang-borui-li-wei-dong-yi-gao-jiajun-bu/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/project/tinylink/</loc>
     <lastmod>2017-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/author/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liborui.github.io/publication-list/</loc>
   </url>
-  
 </urlset>
