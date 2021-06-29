@@ -21,6 +21,22 @@
     </item>
     
     <item>
+      <title>[INFOCOM&#39;21] S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices</title>
+      <link>https://liborui.github.io/publication/infocom21-s2/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/infocom21-s2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[INFOCOM&#39;21] WiProg: A WebAssembly-based Approach to Integrated IoT Programming</title>
+      <link>https://liborui.github.io/publication/infocom21-wiprog/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/infocom21-wiprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[IoTJ&#39;20] Automatic Generation of IoT Device Platforms with AutoLink</title>
       <link>https://liborui.github.io/publication/iotj20-autolink/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
@@ -30,9 +46,9 @@
     
     <item>
       <title>[TOSN&#39;20] TinyLink: A Holistic System for Rapid Development of IoT Applications</title>
-      <link>https://liborui.github.io/publication/tosn21-tinylink/</link>
+      <link>https://liborui.github.io/publication/tosn20-tinylink/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/tosn21-tinylink/</guid>
+      <guid>https://liborui.github.io/publication/tosn20-tinylink/</guid>
       <description></description>
     </item>
     
