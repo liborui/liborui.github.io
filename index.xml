@@ -5,12 +5,20 @@
     <link>https://liborui.github.io/</link>
       <atom:link href="https://liborui.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Borui Li - Zhejiang University</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2021</copyright><lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2021</copyright><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liborui.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Borui Li - Zhejiang University</title>
       <link>https://liborui.github.io/</link>
     </image>
+    
+    <item>
+      <title>[MobiSys&#39;21] ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration</title>
+      <link>https://liborui.github.io/publication/mobisys21-thingspireos/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/mobisys21-thingspireos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>[TOSN&#39;21] Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
