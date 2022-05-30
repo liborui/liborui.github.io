@@ -1,62 +1,227 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Borui Li - Zhejiang University</title>
+    <title>Borui&#39;s Homepage</title>
     <link>https://liborui.github.io/</link>
       <atom:link href="https://liborui.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Borui Li - Zhejiang University</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2022</copyright><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <description>Borui&#39;s Homepage</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Borui Li - Zhejiang University</title>
+      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Borui&#39;s Homepage</title>
       <link>https://liborui.github.io/</link>
     </image>
     
     <item>
-      <title>[MobiSys&#39;21] ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration</title>
-      <link>https://liborui.github.io/publication/mobisys21-thingspireos/</link>
+      <title>Example Talk</title>
+      <link>https://liborui.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bringing WebAssembly to Resource-constrained IoT Devices for Seamless Device-Cloud Integration</title>
+      <link>https://liborui.github.io/publication/2022-mobisys22-wait/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2022-mobisys22-wait/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edge-centric Programming for IoT Applications with Automatic Code Partitioning</title>
+      <link>https://liborui.github.io/publication/2022-tc22-edgeprog/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2022-tc22-edgeprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration</title>
+      <link>https://liborui.github.io/publication/2021-mobisys21-thingspireos/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/mobisys21-thingspireos/</guid>
+      <guid>https://liborui.github.io/publication/2021-mobisys21-thingspireos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[TOSN&#39;21] Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
-      <link>https://liborui.github.io/publication/tosn21-queec/</link>
+      <title>Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
+      <link>https://liborui.github.io/publication/2021-tosn21-queec/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/tosn21-queec/</guid>
+      <guid>https://liborui.github.io/publication/2021-tosn21-queec/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[INFOCOM&#39;21] S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices</title>
-      <link>https://liborui.github.io/publication/infocom21-s2/</link>
+      <title>One poster accepted by ACM MobiSys 2021!</title>
+      <link>https://liborui.github.io/news/20210518-mobisys21p-accept/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210518-mobisys21p-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration&lt;/strong&gt; is accepted as a poster of &lt;strong&gt;ACM MobiSys 2021&lt;/strong&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presenting our paper at IEEE INFOCOM 2021!</title>
+      <link>https://liborui.github.io/news/20210510-infocom21-pre/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/infocom21-s2/</guid>
-      <description></description>
+      <guid>https://liborui.github.io/news/20210510-infocom21-pre/</guid>
+      <description>&lt;p&gt;🤝 Presenting &lt;strong&gt;WiProg&lt;/strong&gt; and &lt;strong&gt;S2&lt;/strong&gt; at &lt;em&gt;IEEE INFOCOM 2021&lt;/em&gt; ! Check it out &lt;a href=&#34;https://infocom.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>[INFOCOM&#39;21] WiProg: A WebAssembly-based Approach to Integrated IoT Programming</title>
-      <link>https://liborui.github.io/publication/infocom21-wiprog/</link>
+      <title>S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices</title>
+      <link>https://liborui.github.io/publication/2021-infocom21-s2/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/infocom21-wiprog/</guid>
+      <guid>https://liborui.github.io/publication/2021-infocom21-s2/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;title: &amp;ldquo;[INFOCOM&#39;21] S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices&amp;rdquo;
+date: 2021-05-10
+publishDate: 2021-05-10T06:53:06.184915Z
+authors: [&amp;ldquo;Borui Li, Chenghao Tong, Yi Gao, Wei Dong&amp;rdquo;]&lt;/p&gt;
+&lt;h1 id=&#34;authors&#34;&gt;authors:&lt;/h1&gt;
+&lt;h1 id=&#34;--wei-dong&#34;&gt;- Wei Dong&lt;/h1&gt;
+&lt;h1 id=&#34;--borui-li&#34;&gt;- Borui Li&lt;/h1&gt;
+&lt;p&gt;publication_types: [&amp;ldquo;1&amp;rdquo;]&lt;/p&gt;
+&lt;h1 id=&#34;abstract-ieee-icdcs-2020-nov-2020&#34;&gt;abstract: &amp;ldquo;IEEE ICDCS 2020 (Nov. 2020)&amp;rdquo;&lt;/h1&gt;
+&lt;p&gt;featured: false
+publication: &amp;ldquo;&lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE INFOCOM 2021&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;url_video-httpswwwyoutubecomwatchv9gvdjulgd14&#34;&gt;url_video: &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=9GvDJULGD14%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=9GvDJULGD14&#34;&lt;/a&gt;&lt;/h1&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WiProg: A WebAssembly-based Approach to Integrated IoT Programming</title>
+      <link>https://liborui.github.io/publication/2021-infocom21-wiprog/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2021-infocom21-wiprog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[IoTJ&#39;20] Automatic Generation of IoT Device Platforms with AutoLink</title>
-      <link>https://liborui.github.io/publication/iotj20-autolink/</link>
+      <title>Honored to be awarded for INFOCOM 2021 Student Conference Grant!</title>
+      <link>https://liborui.github.io/news/20210420-infocom21-grant/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210420-infocom21-grant/</guid>
+      <description>&lt;p&gt;🍀 See you soon (online)!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Generation of IoT Device Platforms with AutoLink</title>
+      <link>https://liborui.github.io/publication/2021-iotj21-autolink/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2021-iotj21-autolink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One poster accepted by IEEE INFOCOM 2021!</title>
+      <link>https://liborui.github.io/news/20210214-infocom21p-accept/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210214-infocom21p-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices&lt;/strong&gt; is accepted as a poster of &lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE INFOCOM 2021&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our CS-related conference tracker is now online!</title>
+      <link>https://liborui.github.io/news/20210108-conftracker/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210108-conftracker/</guid>
+      <description>&lt;p&gt;See &lt;a href=&#34;https://ccfddl.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; or via the top of this page. &lt;a href=&#34;https://github.com/liborui/iot-conf-deadlines&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stars and pull requests&lt;/a&gt; are also welcome!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted by ACM Trans. on Sensor Networks!</title>
+      <link>https://liborui.github.io/news/20201206-tosn-queec-accept/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20201206-tosn-queec-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads&lt;/strong&gt; is accepted to &lt;a href=&#34;https://dl.acm.org/journal/tosn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ACM Trans. on Sensor Networks&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted by IEEE INFOCOM 2021!</title>
+      <link>https://liborui.github.io/news/20201205-infocom21-accept/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20201205-infocom21-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;WiProg: A WebAssembly-based Approach to Integrated IoT Programming&lt;/strong&gt; is accepted to &lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE INFOCOM 2021&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presenting EdgeProg at IEEE ICDCS 2020!</title>
+      <link>https://liborui.github.io/news/20201130-icdcs20-pre/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20201130-icdcs20-pre/</guid>
+      <description>&lt;p&gt;🤝 Presenting EdgeProg at &lt;em&gt;IEEE ICDCS 2020&lt;/em&gt; ! Check it out &lt;a href=&#34;https://youtu.be/9GvDJULGD14&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;! This year is the 40th anniversary of ICDCS, see more at &lt;a href=&#34;https://icdcs2020.sg/prerecordedvideos.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conf. Program&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EdgeProg: Edge-centric Programming for IoT Applications</title>
+      <link>https://liborui.github.io/publication/2020-icdcs20-edgeprog/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2020-icdcs20-edgeprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One paper accepted by IEEE IoT Journal!</title>
+      <link>https://liborui.github.io/news/20201020-autolink-accept/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/iotj20-autolink/</guid>
+      <guid>https://liborui.github.io/news/20201020-autolink-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;Automatic Generation of IoT Device Platforms with AutoLink&lt;/strong&gt; is accepted to &lt;a href=&#34;https://ieee-iotj.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE Internet of Things Journal&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TinyLink: A Holistic System for Rapid Development of IoT Applications</title>
+      <link>https://liborui.github.io/publication/2020-tosn20-tinylink/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2020-tosn20-tinylink/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[TOSN&#39;20] TinyLink: A Holistic System for Rapid Development of IoT Applications</title>
-      <link>https://liborui.github.io/publication/tosn20-tinylink/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/tosn20-tinylink/</guid>
+      <title>One paper accepted by Trans. on Sensor Networks!</title>
+      <link>https://liborui.github.io/news/20200928-tosn20-tinylink-accept/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20200928-tosn20-tinylink-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;TinyLink: A Holistic System for Rapid Development of IoT Applications&lt;/strong&gt; is accepted to &lt;a href=&#34;https://dl.acm.org/journal/tosn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ACM Trans. on Sensor Networks&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presenting TinyLink 2.0 at ACM MobiCom 2020!</title>
+      <link>https://liborui.github.io/news/20200921-mobicom20-pre/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20200921-mobicom20-pre/</guid>
+      <description>&lt;p&gt;🤝 Presenting &lt;strong&gt;TinyLink 2.0&lt;/strong&gt; at &lt;em&gt;ACM MobiCom 2020&lt;/em&gt; ! Check it out &lt;a href=&#34;https://www.youtube.com/watch?v=kKHzyFT8nfw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;! &lt;a href=&#34;https://sigmobile.org/mobicom/2020/program.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Conf. Program)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
+      <link>https://liborui.github.io/publication/2020-mobicom20-tinylink2/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2020-mobicom20-tinylink2/</guid>
       <description></description>
     </item>
     
@@ -87,19 +252,21 @@ Results show that TinyLink 2.0 can speed up IoT development significantly compar
     </item>
     
     <item>
-      <title>[ICDCS&#39;20] EdgeProg: Edge-centric Programming for IoT Applications</title>
-      <link>https://liborui.github.io/publication/icdcs20-edgeprog/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/icdcs20-edgeprog/</guid>
-      <description></description>
+      <title>One paper accepted by IEEE ICDCS 2020</title>
+      <link>https://liborui.github.io/news/20200323-icdcs20-accept/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20200323-icdcs20-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named &amp;ldquo;&lt;font color=#FF0000 &gt;&lt;strong&gt;EdgeProg: Edge-centric Programming for IoT Applications&lt;/strong&gt;&lt;/font&gt;&amp;rdquo; is accepted to &lt;a href=&#34;https://icdcs2020.sg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE ICDCS 2020&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>[MobiCom&#39;20] TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
-      <link>https://liborui.github.io/publication/mobicom20-tinylink2/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/mobicom20-tinylink2/</guid>
-      <description></description>
+      <title>One paper accepted by ACM MobiCom 2020!</title>
+      <link>https://liborui.github.io/news/20200210-tinylink2-accept/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20200210-tinylink2-accept/</guid>
+      <description>&lt;p&gt;😃 Our paper named TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications is accepted by MobiCom&#39;20&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -115,11 +282,128 @@ With LinkLab, IoT developers can write the application code on Web IDE, compile 
     </item>
     
     <item>
-      <title>[EWSN&#39;19] Demo: Integrated Development of IoT Applications with OneLink</title>
-      <link>https://liborui.github.io/publication/ewsn19-onelink/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/ewsn19-onelink/</guid>
-      <description></description>
+      <title>Slides</title>
+      <link>https://liborui.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -136,6 +420,14 @@ TinyLink provides unified APIs for applications to interact with the underlying 
 &lt;p&gt;We implement TinyLink and evaluate its performance using realworld IoT applications.
 Results show that: (1) TinyLink achieves rapid development of IoT applications, reducing 52.58% of lines of code in average compared with traditional approaches; (2) TinyLink searches a much larger design space and thus can generate a superior solution for the hardware configuration, compared with the state-of-the-art approach; (3) TinyLink incurs acceptable overhead in terms of execution time and program memory.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://liborui.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/admin/config.yml</guid>
+      <description></description>
     </item>
     
   </channel>
