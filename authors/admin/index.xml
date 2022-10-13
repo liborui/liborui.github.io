@@ -5,12 +5,20 @@
     <link>https://liborui.github.io/authors/admin/</link>
       <atom:link href="https://liborui.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Borui Li</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liborui.github.io/authors/admin/avatar_hu0ccd98c7c5d497c968959b66c3d32e60_909656_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Borui Li</title>
       <link>https://liborui.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>LinkLab 2.0: A Multi-tenant Programmable IoT Testbed for Experimentation with Edge-Cloud Integration</title>
+      <link>https://liborui.github.io/publication/2023-nsdi23-linklab/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2023-nsdi23-linklab/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bringing WebAssembly to Resource-constrained IoT Devices for Seamless Device-Cloud Integration</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaijie Gong | Borui&#39;s Homepage</title>
+    <link>https://liborui.github.io/authors/kaijie-gong/</link>
+      <atom:link href="https://liborui.github.io/authors/kaijie-gong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kaijie Gong</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Kaijie Gong</title>
+      <link>https://liborui.github.io/authors/kaijie-gong/</link>
+    </image>
+    
+    <item>
+      <title>LinkLab 2.0: A Multi-tenant Programmable IoT Testbed for Experimentation with Edge-Cloud Integration</title>
+      <link>https://liborui.github.io/publication/2023-nsdi23-linklab/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2023-nsdi23-linklab/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
