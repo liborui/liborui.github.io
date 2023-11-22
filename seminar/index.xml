@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEU AIoTSys Seminar | Borui @ SEU</title>
+    <link>https://liborui.github.io/seminar/</link>
+      <atom:link href="https://liborui.github.io/seminar/index.xml" rel="self" type="application/rss+xml" />
+    <description>SEU AIoTSys Seminar</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>SEU AIoTSys Seminar</title>
+      <link>https://liborui.github.io/seminar/</link>
+    </image>
+    
+    <item>
+      <title>Communication-Aware DNN Pruning</title>
+      <link>https://liborui.github.io/seminar/20231121/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231121/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TapFinger: Task Placement and Fine-Grained Resource Allocation for Edge Machine Learning</title>
+      <link>https://liborui.github.io/seminar/20231114/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231114/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning</title>
+      <link>https://liborui.github.io/seminar/20231107/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231107/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices</title>
+      <link>https://liborui.github.io/seminar/20231031/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231031/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Modular Learning of Distributed Systems for Predicting End-to-End Latency</title>
+      <link>https://liborui.github.io/seminar/20231017/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing</title>
+      <link>https://liborui.github.io/seminar/20231010/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-thinking computation offload for efficient inference on IoT devices with duty-cycled radios</title>
+      <link>https://liborui.github.io/seminar/20230926/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20230926/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SFS: Smart OS Scheduling for Serverless Functions</title>
+      <link>https://liborui.github.io/seminar/20230908/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20230908/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>https://liborui.github.io/authors/wei-dong/</link>
       <atom:link href="https://liborui.github.io/authors/wei-dong/index.xml" rel="self" type="application/rss+xml" />
     <description>Wei Dong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 02 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Wei Dong</title>
@@ -13,104 +13,98 @@
     </image>
     
     <item>
+      <title>RT-BLE: Real-time Multi-Connection Scheduling for Bluetooth Low Energy</title>
+      <link>https://liborui.github.io/publication/12-infocom23-rt-ble/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/12-infocom23-rt-ble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LinkLab 2.0: A Multi-tenant Programmable IoT Testbed for Experimentation with Edge-Cloud Integration</title>
-      <link>https://liborui.github.io/publication/2023-nsdi23-linklab/</link>
-      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2023-nsdi23-linklab/</guid>
+      <link>https://liborui.github.io/publication/11-nsdi23-linklab/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/11-nsdi23-linklab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bringing WebAssembly to Resource-constrained IoT Devices for Seamless Device-Cloud Integration</title>
-      <link>https://liborui.github.io/publication/2022-mobisys22-wait/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2022-mobisys22-wait/</guid>
+      <link>https://liborui.github.io/publication/10-mobisys22-wait/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/10-mobisys22-wait/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Edge-centric Programming for IoT Applications with Automatic Code Partitioning</title>
-      <link>https://liborui.github.io/publication/2022-tc22-edgeprog/</link>
+      <link>https://liborui.github.io/publication/9-tc22-edgeprog/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2022-tc22-edgeprog/</guid>
+      <guid>https://liborui.github.io/publication/9-tc22-edgeprog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration</title>
-      <link>https://liborui.github.io/publication/2021-mobisys21-thingspireos/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-mobisys21-thingspireos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
-      <link>https://liborui.github.io/publication/2021-tosn21-queec/</link>
-      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-tosn21-queec/</guid>
+      <link>https://liborui.github.io/publication/8-mobisys21-thingspireos/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/8-mobisys21-thingspireos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices</title>
-      <link>https://liborui.github.io/publication/2021-infocom21-s2/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-infocom21-s2/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;title: &amp;ldquo;[INFOCOM&#39;21] S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices&amp;rdquo;
-date: 2021-05-10
-publishDate: 2021-05-10T06:53:06.184915Z
-authors: [&amp;ldquo;Borui Li, Chenghao Tong, Yi Gao, Wei Dong&amp;rdquo;]&lt;/p&gt;
-&lt;h1 id=&#34;authors&#34;&gt;authors:&lt;/h1&gt;
-&lt;h1 id=&#34;--wei-dong&#34;&gt;- Wei Dong&lt;/h1&gt;
-&lt;h1 id=&#34;--borui-li&#34;&gt;- Borui Li&lt;/h1&gt;
-&lt;p&gt;publication_types: [&amp;ldquo;1&amp;rdquo;]&lt;/p&gt;
-&lt;h1 id=&#34;abstract-ieee-icdcs-2020-nov-2020&#34;&gt;abstract: &amp;ldquo;IEEE ICDCS 2020 (Nov. 2020)&amp;rdquo;&lt;/h1&gt;
-&lt;p&gt;featured: false
-publication: &amp;ldquo;&lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE INFOCOM 2021&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
-&lt;h1 id=&#34;url_video-httpswwwyoutubecomwatchv9gvdjulgd14&#34;&gt;url_video: &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=9GvDJULGD14%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=9GvDJULGD14&#34;&lt;/a&gt;&lt;/h1&gt;
-&lt;hr&gt;
-</description>
+      <link>https://liborui.github.io/publication/6-infocom21-s2/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/6-infocom21-s2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
+      <link>https://liborui.github.io/publication/7-tosn21-queec/</link>
+      <pubDate>Sun, 06 Dec 2020 12:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/7-tosn21-queec/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>WiProg: A WebAssembly-based Approach to Integrated IoT Programming</title>
-      <link>https://liborui.github.io/publication/2021-infocom21-wiprog/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-infocom21-wiprog/</guid>
+      <link>https://liborui.github.io/publication/5-infocom21-wiprog/</link>
+      <pubDate>Sat, 05 Dec 2020 10:40:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/5-infocom21-wiprog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Generation of IoT Device Platforms with AutoLink</title>
-      <link>https://liborui.github.io/publication/2021-iotj21-autolink/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-iotj21-autolink/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EdgeProg: Edge-centric Programming for IoT Applications</title>
-      <link>https://liborui.github.io/publication/2020-icdcs20-edgeprog/</link>
-      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2020-icdcs20-edgeprog/</guid>
+      <link>https://liborui.github.io/publication/4-iotj21-autolink/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/4-iotj21-autolink/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TinyLink: A Holistic System for Rapid Development of IoT Applications</title>
-      <link>https://liborui.github.io/publication/2020-tosn20-tinylink/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2020-tosn20-tinylink/</guid>
+      <link>https://liborui.github.io/publication/3-tosn20-tinylink/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/3-tosn20-tinylink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EdgeProg: Edge-centric Programming for IoT Applications</title>
+      <link>https://liborui.github.io/publication/2-icdcs20-edgeprog/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2-icdcs20-edgeprog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
-      <link>https://liborui.github.io/publication/2020-mobicom20-tinylink2/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2020-mobicom20-tinylink2/</guid>
+      <link>https://liborui.github.io/publication/1-mobicom20-tinylink2/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/1-mobicom20-tinylink2/</guid>
       <description></description>
     </item>
     

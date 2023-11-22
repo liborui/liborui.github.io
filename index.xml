@@ -33,121 +33,258 @@
     </item>
     
     <item>
+      <title>Communication-Aware DNN Pruning</title>
+      <link>https://liborui.github.io/seminar/20231121/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231121/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TapFinger: Task Placement and Fine-Grained Resource Allocation for Edge Machine Learning</title>
+      <link>https://liborui.github.io/seminar/20231114/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231114/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning</title>
+      <link>https://liborui.github.io/seminar/20231107/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231107/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices</title>
+      <link>https://liborui.github.io/seminar/20231031/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231031/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named &lt;font color=#FF0000 &gt;**WebInf: Accelerating WebGPU-based In-browser DNN Inference via Adaptive Model Partitioning**&lt;/font&gt; is accepted to **IEEE ICPADS 2023**! Congrats to Dong Bing!</title>
+      <link>https://liborui.github.io/news/20231027-icpads-accept/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20231027-icpads-accept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebInf: Accelerating WebGPU-based In-browser DNN Inference via Adaptive Model Partitioning</title>
+      <link>https://liborui.github.io/publication/14-icpads24-webinf/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/14-icpads24-webinf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Modular Learning of Distributed Systems for Predicting End-to-End Latency</title>
+      <link>https://liborui.github.io/seminar/20231017/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:four_leaf_clover: Honored to be awarded for **Outstanding Ph.D. Dissertation of ACM China (Hangzhou Chapter)** !</title>
+      <link>https://liborui.github.io/news/20231014-acm-award/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20231014-acm-award/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing</title>
+      <link>https://liborui.github.io/seminar/20231010/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20231010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-thinking computation offload for efficient inference on IoT devices with duty-cycled radios</title>
+      <link>https://liborui.github.io/seminar/20230926/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20230926/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SFS: Smart OS Scheduling for Serverless Functions</title>
+      <link>https://liborui.github.io/seminar/20230908/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/seminar/20230908/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named &lt;font color=#FF0000 &gt;**The First Measurement Study of Target Wake Time Mechanism in 802.11ax on COTS Devices**&lt;/font&gt; is accepted to **IEEE ICC 2023**! Congrats to Chengqing!</title>
+      <link>https://liborui.github.io/news/20221202-icc23-accept/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20221202-icc23-accept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The First Measurement Study of Target Wake Time Mechanism in 802.11ax on COTS Devices</title>
+      <link>https://liborui.github.io/publication/13-icc23-wifi6twt/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/13-icc23-wifi6twt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named &lt;font color=#FF0000 &gt;**BLEdge: Edge-centric programming for BLE applications with multi-connection optimization**&lt;/font&gt; is accepted to **IEEE INFOCOM 2023**! Congrats to Yeming!</title>
+      <link>https://liborui.github.io/news/20221202-infocom23-accept/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20221202-infocom23-accept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RT-BLE: Real-time Multi-Connection Scheduling for Bluetooth Low Energy</title>
+      <link>https://liborui.github.io/publication/12-infocom23-rt-ble/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/12-infocom23-rt-ble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:teacher: I am now an Assistant Professor of **School of Computer Science and Engineering, Southeast University**.</title>
+      <link>https://liborui.github.io/news/20221108-join-seu/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20221108-join-seu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:mortar_board: I pass my PhD defense! The title of my PhD thesis is &lt;font color=#FF0000 &gt;**Research on Holistic Development of Internet of Things Applications with Cloud-Edge Integration**&lt;/font&gt;.</title>
+      <link>https://liborui.github.io/news/20220909-phd-defense/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20220909-phd-defense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named &lt;font color=#FF0000 &gt;**LinkLab 2.0: A multi-tenant programmable IoT testbed for experimentation with edge-cloud integration**&lt;/font&gt; is accepted to [**USENIX NSDI 2023**](https://www.usenix.org/conference/nsdi23) ! </title>
+      <link>https://liborui.github.io/news/20220709-nsdi23-accept/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20220709-nsdi23-accept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LinkLab 2.0: A Multi-tenant Programmable IoT Testbed for Experimentation with Edge-Cloud Integration</title>
-      <link>https://liborui.github.io/publication/2023-nsdi23-linklab/</link>
-      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2023-nsdi23-linklab/</guid>
+      <link>https://liborui.github.io/publication/11-nsdi23-linklab/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/11-nsdi23-linklab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named &lt;font color=#FF0000 &gt;**Bringing WebAssembly to Resource-constrained IoT Devices for Seamless Device-Cloud Integration**&lt;/font&gt; is accepted to [**ACM MobiSys 2022**](https://www.sigmobile.org/mobisys/2022/) ! Many thanks to our shepherd, Jeremy Andrus, for helping us improve this paper.</title>
+      <link>https://liborui.github.io/news/20220520-mobisys22-accept/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20220520-mobisys22-accept/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bringing WebAssembly to Resource-constrained IoT Devices for Seamless Device-Cloud Integration</title>
-      <link>https://liborui.github.io/publication/2022-mobisys22-wait/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2022-mobisys22-wait/</guid>
+      <link>https://liborui.github.io/publication/10-mobisys22-wait/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/10-mobisys22-wait/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:four_leaf_clover: Honored to be awarded for *National Scholarship of China* !</title>
+      <link>https://liborui.github.io/news/20211231-national-scholarship/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20211231-national-scholarship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named &lt;font color=#FF0000 &gt;**Edge-centric Programming for IoT Applications with Automatic Code Partitioning**&lt;/font&gt; is accepted to [**IEEE Trans. on Computers**](https://www.computer.org/csdl/journal/tc) ! </title>
+      <link>https://liborui.github.io/news/20211031-tc-edgeprog-accept/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20211031-tc-edgeprog-accept/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Edge-centric Programming for IoT Applications with Automatic Code Partitioning</title>
-      <link>https://liborui.github.io/publication/2022-tc22-edgeprog/</link>
+      <link>https://liborui.github.io/publication/9-tc22-edgeprog/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2022-tc22-edgeprog/</guid>
+      <guid>https://liborui.github.io/publication/9-tc22-edgeprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:handshake: Presenting our &lt;font color=#FF0000 &gt;**LinkLab**&lt;/font&gt; project at *56th Higher Education EXPO China* ! Check it out [here](http://www.heexpochina.com/) and see you in Tsingtao! </title>
+      <link>https://liborui.github.io/news/20210521-higher-edu-expo/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210521-higher-edu-expo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named **ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration** is accepted as a poster of **ACM MobiSys 2021** ! </title>
+      <link>https://liborui.github.io/news/20210518-mobisys21p-accept/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210518-mobisys21p-accept/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration</title>
-      <link>https://liborui.github.io/publication/2021-mobisys21-thingspireos/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-mobisys21-thingspireos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
-      <link>https://liborui.github.io/publication/2021-tosn21-queec/</link>
-      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-tosn21-queec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>One poster accepted by ACM MobiSys 2021!</title>
-      <link>https://liborui.github.io/news/20210518-mobisys21p-accept/</link>
+      <link>https://liborui.github.io/publication/8-mobisys21-thingspireos/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20210518-mobisys21p-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;ThingSpire OS: a WebAssembly-based IoT Operating System for Cloud-Edge Integration&lt;/strong&gt; is accepted as a poster of &lt;strong&gt;ACM MobiSys 2021&lt;/strong&gt; !&lt;/p&gt;
+      <guid>https://liborui.github.io/publication/8-mobisys21-thingspireos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:handshake: Presenting **WiProg** and **S2** at *IEEE INFOCOM 2021* ! Check it out [here](https://infocom.info/)!</title>
+      <link>https://liborui.github.io/news/20210510-infocom21-pre/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210510-infocom21-pre/</guid>
+      <description>&lt;p&gt;&amp;#x1f91d; Presenting &lt;strong&gt;WiProg&lt;/strong&gt; and &lt;strong&gt;S2&lt;/strong&gt; at &lt;em&gt;IEEE INFOCOM 2021&lt;/em&gt; ! Check it out &lt;a href=&#34;https://infocom.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Presenting our paper at IEEE INFOCOM 2021!</title>
-      <link>https://liborui.github.io/news/20210510-infocom21-pre/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20210510-infocom21-pre/</guid>
-      <description>&lt;p&gt;🤝 Presenting &lt;strong&gt;WiProg&lt;/strong&gt; and &lt;strong&gt;S2&lt;/strong&gt; at &lt;em&gt;IEEE INFOCOM 2021&lt;/em&gt; ! Check it out &lt;a href=&#34;https://infocom.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
+      <title>:four_leaf_clover: Honored to be awarded for INFOCOM 2021 Student Conference Grant! See you soon (online)!</title>
+      <link>https://liborui.github.io/news/20210420-infocom21-grant/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210420-infocom21-grant/</guid>
+      <description>&lt;p&gt;&amp;#x1f340; See you soon (online)!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named **S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices** is accepted as a poster of [**IEEE INFOCOM 2021**](https://infocom2021.ieee-infocom.org/) !</title>
+      <link>https://liborui.github.io/news/20210214-infocom21p-accept/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20210214-infocom21p-accept/</guid>
+      <description>&lt;p&gt;&amp;#x1f603; Our paper named &lt;strong&gt;S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices&lt;/strong&gt; is accepted as a poster of &lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE INFOCOM 2021&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices</title>
-      <link>https://liborui.github.io/publication/2021-infocom21-s2/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-infocom21-s2/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;title: &amp;ldquo;[INFOCOM&#39;21] S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices&amp;rdquo;
-date: 2021-05-10
-publishDate: 2021-05-10T06:53:06.184915Z
-authors: [&amp;ldquo;Borui Li, Chenghao Tong, Yi Gao, Wei Dong&amp;rdquo;]&lt;/p&gt;
-&lt;h1 id=&#34;authors&#34;&gt;authors:&lt;/h1&gt;
-&lt;h1 id=&#34;--wei-dong&#34;&gt;- Wei Dong&lt;/h1&gt;
-&lt;h1 id=&#34;--borui-li&#34;&gt;- Borui Li&lt;/h1&gt;
-&lt;p&gt;publication_types: [&amp;ldquo;1&amp;rdquo;]&lt;/p&gt;
-&lt;h1 id=&#34;abstract-ieee-icdcs-2020-nov-2020&#34;&gt;abstract: &amp;ldquo;IEEE ICDCS 2020 (Nov. 2020)&amp;rdquo;&lt;/h1&gt;
-&lt;p&gt;featured: false
-publication: &amp;ldquo;&lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE INFOCOM 2021&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
-&lt;h1 id=&#34;url_video-httpswwwyoutubecomwatchv9gvdjulgd14&#34;&gt;url_video: &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=9GvDJULGD14%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=9GvDJULGD14&#34;&lt;/a&gt;&lt;/h1&gt;
-&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>WiProg: A WebAssembly-based Approach to Integrated IoT Programming</title>
-      <link>https://liborui.github.io/publication/2021-infocom21-wiprog/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-infocom21-wiprog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Honored to be awarded for INFOCOM 2021 Student Conference Grant!</title>
-      <link>https://liborui.github.io/news/20210420-infocom21-grant/</link>
-      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20210420-infocom21-grant/</guid>
-      <description>&lt;p&gt;🍀 See you soon (online)!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Automatic Generation of IoT Device Platforms with AutoLink</title>
-      <link>https://liborui.github.io/publication/2021-iotj21-autolink/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-iotj21-autolink/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>One poster accepted by IEEE INFOCOM 2021!</title>
-      <link>https://liborui.github.io/news/20210214-infocom21p-accept/</link>
+      <link>https://liborui.github.io/publication/6-infocom21-s2/</link>
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20210214-infocom21p-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices&lt;/strong&gt; is accepted as a poster of &lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE INFOCOM 2021&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
-</description>
+      <guid>https://liborui.github.io/publication/6-infocom21-s2/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Our CS-related conference tracker is now online!</title>
+      <title>**👉🏻** Our CS-related conference tracker is now online! See [here](https://ccfddl.github.io/) or via the top of this page. [Stars and pull requests](https://github.com/liborui/iot-conf-deadlines) are also welcome!</title>
       <link>https://liborui.github.io/news/20210108-conftracker/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://liborui.github.io/news/20210108-conftracker/</guid>
@@ -156,80 +293,88 @@ publication: &amp;ldquo;&lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#3
     </item>
     
     <item>
-      <title>One paper accepted by ACM Trans. on Sensor Networks!</title>
-      <link>https://liborui.github.io/news/20201206-tosn-queec-accept/</link>
-      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20201206-tosn-queec-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads&lt;/strong&gt; is accepted to &lt;a href=&#34;https://dl.acm.org/journal/tosn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ACM Trans. on Sensor Networks&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>One paper accepted by IEEE INFOCOM 2021!</title>
-      <link>https://liborui.github.io/news/20201205-infocom21-accept/</link>
-      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20201205-infocom21-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;WiProg: A WebAssembly-based Approach to Integrated IoT Programming&lt;/strong&gt; is accepted to &lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE INFOCOM 2021&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Presenting EdgeProg at IEEE ICDCS 2020!</title>
-      <link>https://liborui.github.io/news/20201130-icdcs20-pre/</link>
-      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20201130-icdcs20-pre/</guid>
-      <description>&lt;p&gt;🤝 Presenting EdgeProg at &lt;em&gt;IEEE ICDCS 2020&lt;/em&gt; ! Check it out &lt;a href=&#34;https://youtu.be/9GvDJULGD14&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;! This year is the 40th anniversary of ICDCS, see more at &lt;a href=&#34;https://icdcs2020.sg/prerecordedvideos.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conf. Program&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>EdgeProg: Edge-centric Programming for IoT Applications</title>
-      <link>https://liborui.github.io/publication/2020-icdcs20-edgeprog/</link>
-      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2020-icdcs20-edgeprog/</guid>
+      <title>Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
+      <link>https://liborui.github.io/publication/7-tosn21-queec/</link>
+      <pubDate>Sun, 06 Dec 2020 12:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/7-tosn21-queec/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>One paper accepted by IEEE IoT Journal!</title>
+      <title>:smiley: Our paper named **Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads** is accepted to [**ACM Trans. on Sensor Networks**](https://dl.acm.org/journal/tosn) !</title>
+      <link>https://liborui.github.io/news/20201206-tosn-queec-accept/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20201206-tosn-queec-accept/</guid>
+      <description>&lt;p&gt;&amp;#x1f603; Our paper named &lt;strong&gt;Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads&lt;/strong&gt; is accepted to &lt;a href=&#34;https://dl.acm.org/journal/tosn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ACM Trans. on Sensor Networks&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WiProg: A WebAssembly-based Approach to Integrated IoT Programming</title>
+      <link>https://liborui.github.io/publication/5-infocom21-wiprog/</link>
+      <pubDate>Sat, 05 Dec 2020 10:40:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/5-infocom21-wiprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named **WiProg: A WebAssembly-based Approach to Integrated IoT Programming** is accepted to [**IEEE INFOCOM 2021**](https://infocom2021.ieee-infocom.org/) ! </title>
+      <link>https://liborui.github.io/news/20201205-infocom21-accept/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20201205-infocom21-accept/</guid>
+      <description>&lt;p&gt;&amp;#x1f603; Our paper named &lt;strong&gt;WiProg: A WebAssembly-based Approach to Integrated IoT Programming&lt;/strong&gt; is accepted to &lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE INFOCOM 2021&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>:handshake: Presenting EdgeProg at *IEEE ICDCS 2020* ! Check it out [here](https://youtu.be/9GvDJULGD14)! This year is the 40th anniversary of ICDCS, see more at [Conf. Program](https://icdcs2020.sg/prerecordedvideos.html).</title>
+      <link>https://liborui.github.io/news/20201130-icdcs20-pre/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20201130-icdcs20-pre/</guid>
+      <description>&lt;p&gt;&amp;#x1f91d; Presenting EdgeProg at &lt;em&gt;IEEE ICDCS 2020&lt;/em&gt; ! Check it out &lt;a href=&#34;https://youtu.be/9GvDJULGD14&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;! This year is the 40th anniversary of ICDCS, see more at &lt;a href=&#34;https://icdcs2020.sg/prerecordedvideos.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conf. Program&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named **Automatic Generation of IoT Device Platforms with AutoLink** is accepted to [**IEEE Internet of Things Journal**](https://ieee-iotj.org/) ! </title>
       <link>https://liborui.github.io/news/20201020-autolink-accept/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://liborui.github.io/news/20201020-autolink-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;Automatic Generation of IoT Device Platforms with AutoLink&lt;/strong&gt; is accepted to &lt;a href=&#34;https://ieee-iotj.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE Internet of Things Journal&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+      <description>&lt;p&gt;&amp;#x1f603; Our paper named &lt;strong&gt;Automatic Generation of IoT Device Platforms with AutoLink&lt;/strong&gt; is accepted to &lt;a href=&#34;https://ieee-iotj.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE Internet of Things Journal&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Generation of IoT Device Platforms with AutoLink</title>
+      <link>https://liborui.github.io/publication/4-iotj21-autolink/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/4-iotj21-autolink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named **TinyLink: A Holistic System for Rapid Development of IoT Applications** is accepted to [**ACM Trans. on Sensor Networks**](https://dl.acm.org/journal/tosn) ! </title>
+      <link>https://liborui.github.io/news/20200928-tosn20-tinylink-accept/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20200928-tosn20-tinylink-accept/</guid>
+      <description>&lt;p&gt;&amp;#x1f603; Our paper named &lt;strong&gt;TinyLink: A Holistic System for Rapid Development of IoT Applications&lt;/strong&gt; is accepted to &lt;a href=&#34;https://dl.acm.org/journal/tosn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ACM Trans. on Sensor Networks&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>:handshake: Presenting **TinyLink 2.0** at *ACM MobiCom 2020* ! Check it out [here](https://www.youtube.com/watch?v=kKHzyFT8nfw)! [(Conf. Program)](https://sigmobile.org/mobicom/2020/program.php)</title>
+      <link>https://liborui.github.io/news/20200921-mobicom20-pre/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/news/20200921-mobicom20-pre/</guid>
+      <description>&lt;p&gt;&amp;#x1f91d; Presenting &lt;strong&gt;TinyLink 2.0&lt;/strong&gt; at &lt;em&gt;ACM MobiCom 2020&lt;/em&gt; ! Check it out &lt;a href=&#34;https://www.youtube.com/watch?v=kKHzyFT8nfw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;! &lt;a href=&#34;https://sigmobile.org/mobicom/2020/program.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Conf. Program)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>TinyLink: A Holistic System for Rapid Development of IoT Applications</title>
-      <link>https://liborui.github.io/publication/2020-tosn20-tinylink/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2020-tosn20-tinylink/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>One paper accepted by Trans. on Sensor Networks!</title>
-      <link>https://liborui.github.io/news/20200928-tosn20-tinylink-accept/</link>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20200928-tosn20-tinylink-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named &lt;strong&gt;TinyLink: A Holistic System for Rapid Development of IoT Applications&lt;/strong&gt; is accepted to &lt;a href=&#34;https://dl.acm.org/journal/tosn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ACM Trans. on Sensor Networks&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Presenting TinyLink 2.0 at ACM MobiCom 2020!</title>
-      <link>https://liborui.github.io/news/20200921-mobicom20-pre/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/news/20200921-mobicom20-pre/</guid>
-      <description>&lt;p&gt;🤝 Presenting &lt;strong&gt;TinyLink 2.0&lt;/strong&gt; at &lt;em&gt;ACM MobiCom 2020&lt;/em&gt; ! Check it out &lt;a href=&#34;https://www.youtube.com/watch?v=kKHzyFT8nfw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;! &lt;a href=&#34;https://sigmobile.org/mobicom/2020/program.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Conf. Program)&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
-      <link>https://liborui.github.io/publication/2020-mobicom20-tinylink2/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2020-mobicom20-tinylink2/</guid>
+      <link>https://liborui.github.io/publication/3-tosn20-tinylink/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/3-tosn20-tinylink/</guid>
       <description></description>
     </item>
     
@@ -260,21 +405,37 @@ Results show that TinyLink 2.0 can speed up IoT development significantly compar
     </item>
     
     <item>
-      <title>One paper accepted by IEEE ICDCS 2020</title>
+      <title>EdgeProg: Edge-centric Programming for IoT Applications</title>
+      <link>https://liborui.github.io/publication/2-icdcs20-edgeprog/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/2-icdcs20-edgeprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:smiley: Our paper named [EdgeProg: Edge-centric Programming for IoT Applications](/publication/2020-icdcs20-edgeprog) is accepted to **IEEE ICDCS 2020!**</title>
       <link>https://liborui.github.io/news/20200323-icdcs20-accept/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://liborui.github.io/news/20200323-icdcs20-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named &amp;ldquo;&lt;font color=#FF0000 &gt;&lt;strong&gt;EdgeProg: Edge-centric Programming for IoT Applications&lt;/strong&gt;&lt;/font&gt;&amp;rdquo; is accepted to &lt;a href=&#34;https://icdcs2020.sg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE ICDCS 2020&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
+      <description>&lt;p&gt;&amp;#x1f603; Our paper named &amp;ldquo;&lt;font color=#FF0000 &gt;&lt;strong&gt;EdgeProg: Edge-centric Programming for IoT Applications&lt;/strong&gt;&lt;/font&gt;&amp;rdquo; is accepted to &lt;a href=&#34;https://icdcs2020.sg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IEEE ICDCS 2020&lt;/strong&gt;&lt;/a&gt; !&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>One paper accepted by ACM MobiCom 2020!</title>
+      <title>:smiley: Our paper named [TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications](/publication/2020-mobicom20-tinylink2) is accepted by **ACM MobiCom 2020!**</title>
       <link>https://liborui.github.io/news/20200210-tinylink2-accept/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://liborui.github.io/news/20200210-tinylink2-accept/</guid>
-      <description>&lt;p&gt;😃 Our paper named TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications is accepted by MobiCom&#39;20&lt;/p&gt;
+      <description>&lt;p&gt;&amp;#x1f603; Our paper named TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications is accepted by MobiCom&#39;20&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
+      <link>https://liborui.github.io/publication/1-mobicom20-tinylink2/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/1-mobicom20-tinylink2/</guid>
+      <description></description>
     </item>
     
     <item>

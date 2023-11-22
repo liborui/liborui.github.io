@@ -5,7 +5,7 @@
     <link>https://liborui.github.io/authors/chenghao-tong/</link>
       <atom:link href="https://liborui.github.io/authors/chenghao-tong/index.xml" rel="self" type="application/rss+xml" />
     <description>Chenghao Tong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Chenghao Tong</title>
@@ -14,24 +14,10 @@
     
     <item>
       <title>S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices</title>
-      <link>https://liborui.github.io/publication/2021-infocom21-s2/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2021-infocom21-s2/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;title: &amp;ldquo;[INFOCOM&#39;21] S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices&amp;rdquo;
-date: 2021-05-10
-publishDate: 2021-05-10T06:53:06.184915Z
-authors: [&amp;ldquo;Borui Li, Chenghao Tong, Yi Gao, Wei Dong&amp;rdquo;]&lt;/p&gt;
-&lt;h1 id=&#34;authors&#34;&gt;authors:&lt;/h1&gt;
-&lt;h1 id=&#34;--wei-dong&#34;&gt;- Wei Dong&lt;/h1&gt;
-&lt;h1 id=&#34;--borui-li&#34;&gt;- Borui Li&lt;/h1&gt;
-&lt;p&gt;publication_types: [&amp;ldquo;1&amp;rdquo;]&lt;/p&gt;
-&lt;h1 id=&#34;abstract-ieee-icdcs-2020-nov-2020&#34;&gt;abstract: &amp;ldquo;IEEE ICDCS 2020 (Nov. 2020)&amp;rdquo;&lt;/h1&gt;
-&lt;p&gt;featured: false
-publication: &amp;ldquo;&lt;a href=&#34;https://infocom2021.ieee-infocom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE INFOCOM 2021&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
-&lt;h1 id=&#34;url_video-httpswwwyoutubecomwatchv9gvdjulgd14&#34;&gt;url_video: &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=9GvDJULGD14%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=9GvDJULGD14&#34;&lt;/a&gt;&lt;/h1&gt;
-&lt;hr&gt;
-</description>
+      <link>https://liborui.github.io/publication/6-infocom21-s2/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://liborui.github.io/publication/6-infocom21-s2/</guid>
+      <description></description>
     </item>
     
   </channel>
