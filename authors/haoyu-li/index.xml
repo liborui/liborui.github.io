@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Haoyu Li | Borui @ SEU</title>
-    <link>https://liborui.github.io/authors/haoyu-li/</link>
-      <atom:link href="https://liborui.github.io/authors/haoyu-li/index.xml" rel="self" type="application/rss+xml" />
+    <title>Haoyu Li | 李博睿 Borui@SEU</title>
+    <link>http://liborui.cn/authors/haoyu-li/</link>
+      <atom:link href="http://liborui.cn/authors/haoyu-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Haoyu Li</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Haoyu Li</title>
-      <link>https://liborui.github.io/authors/haoyu-li/</link>
+      <link>http://liborui.cn/authors/haoyu-li/</link>
     </image>
     
     <item>
       <title>LinkLab 2.0: A Multi-tenant Programmable IoT Testbed for Experimentation with Edge-Cloud Integration</title>
-      <link>https://liborui.github.io/publication/11-nsdi23-linklab/</link>
+      <link>http://liborui.cn/publication/11-nsdi23-linklab/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/11-nsdi23-linklab/</guid>
+      <guid>http://liborui.cn/publication/11-nsdi23-linklab/</guid>
       <description></description>
     </item>
     

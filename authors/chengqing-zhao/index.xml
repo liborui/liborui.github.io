@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chengqing Zhao | Borui @ SEU</title>
-    <link>https://liborui.github.io/authors/chengqing-zhao/</link>
-      <atom:link href="https://liborui.github.io/authors/chengqing-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <title>Chengqing Zhao | 李博睿 Borui@SEU</title>
+    <link>http://liborui.cn/authors/chengqing-zhao/</link>
+      <atom:link href="http://liborui.cn/authors/chengqing-zhao/index.xml" rel="self" type="application/rss+xml" />
     <description>Chengqing Zhao</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Chengqing Zhao</title>
-      <link>https://liborui.github.io/authors/chengqing-zhao/</link>
+      <link>http://liborui.cn/authors/chengqing-zhao/</link>
     </image>
     
     <item>
       <title>SFS: Smart OS Scheduling for Serverless Functions</title>
-      <link>https://liborui.github.io/seminar/20230908/</link>
+      <link>http://liborui.cn/seminar/20230908/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/seminar/20230908/</guid>
+      <guid>http://liborui.cn/seminar/20230908/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The First Measurement Study of Target Wake Time Mechanism in 802.11ax on COTS Devices</title>
-      <link>https://liborui.github.io/publication/13-icc23-wifi6twt/</link>
+      <link>http://liborui.cn/publication/13-icc23-wifi6twt/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/13-icc23-wifi6twt/</guid>
+      <guid>http://liborui.cn/publication/13-icc23-wifi6twt/</guid>
       <description></description>
     </item>
     

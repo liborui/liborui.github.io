@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Borui @ SEU</title>
-    <link>https://liborui.github.io/publication-type/2/</link>
-      <atom:link href="https://liborui.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <title>2 | 李博睿 Borui@SEU</title>
+    <link>http://liborui.cn/publication-type/2/</link>
+      <atom:link href="http://liborui.cn/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>https://liborui.github.io/publication-type/2/</link>
+      <link>http://liborui.cn/publication-type/2/</link>
     </image>
     
     <item>
       <title>Edge-centric Programming for IoT Applications with Automatic Code Partitioning</title>
-      <link>https://liborui.github.io/publication/9-tc22-edgeprog/</link>
+      <link>http://liborui.cn/publication/9-tc22-edgeprog/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/9-tc22-edgeprog/</guid>
+      <guid>http://liborui.cn/publication/9-tc22-edgeprog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>S2: a Small Delta and Small Memory Differencing Algorithm for Reprogramming Resource-constrained IoT Devices</title>
-      <link>https://liborui.github.io/publication/6-infocom21-s2/</link>
+      <link>http://liborui.cn/publication/6-infocom21-s2/</link>
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/6-infocom21-s2/</guid>
+      <guid>http://liborui.cn/publication/6-infocom21-s2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
-      <link>https://liborui.github.io/publication/7-tosn21-queec/</link>
+      <link>http://liborui.cn/publication/7-tosn21-queec/</link>
       <pubDate>Sun, 06 Dec 2020 12:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/7-tosn21-queec/</guid>
+      <guid>http://liborui.cn/publication/7-tosn21-queec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Generation of IoT Device Platforms with AutoLink</title>
-      <link>https://liborui.github.io/publication/4-iotj21-autolink/</link>
+      <link>http://liborui.cn/publication/4-iotj21-autolink/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/4-iotj21-autolink/</guid>
+      <guid>http://liborui.cn/publication/4-iotj21-autolink/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TinyLink: A Holistic System for Rapid Development of IoT Applications</title>
-      <link>https://liborui.github.io/publication/3-tosn20-tinylink/</link>
+      <link>http://liborui.cn/publication/3-tosn20-tinylink/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/3-tosn20-tinylink/</guid>
+      <guid>http://liborui.cn/publication/3-tosn20-tinylink/</guid>
       <description></description>
     </item>
     

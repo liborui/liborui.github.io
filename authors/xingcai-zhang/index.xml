@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xingcai Zhang | Borui @ SEU</title>
-    <link>https://liborui.github.io/authors/xingcai-zhang/</link>
-      <atom:link href="https://liborui.github.io/authors/xingcai-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <title>Xingcai Zhang | 李博睿 Borui@SEU</title>
+    <link>http://liborui.cn/authors/xingcai-zhang/</link>
+      <atom:link href="http://liborui.cn/authors/xingcai-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Xingcai Zhang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Xingcai Zhang</title>
-      <link>https://liborui.github.io/authors/xingcai-zhang/</link>
+      <link>http://liborui.cn/authors/xingcai-zhang/</link>
     </image>
     
     <item>
       <title>Communication-Aware DNN Pruning</title>
-      <link>https://liborui.github.io/seminar/20231121/</link>
+      <link>http://liborui.cn/seminar/20231121/</link>
       <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/seminar/20231121/</guid>
+      <guid>http://liborui.cn/seminar/20231121/</guid>
       <description></description>
     </item>
     

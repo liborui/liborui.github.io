@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Borui @ SEU</title>
-    <link>https://liborui.github.io/project/</link>
-      <atom:link href="https://liborui.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | 李博睿 Borui@SEU</title>
+    <link>http://liborui.cn/project/</link>
+      <atom:link href="http://liborui.cn/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://liborui.github.io/project/</link>
+      <link>http://liborui.cn/project/</link>
     </image>
     
     <item>
       <title>AutoLink</title>
-      <link>https://liborui.github.io/project/autolink/</link>
+      <link>http://liborui.cn/project/autolink/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/project/autolink/</guid>
+      <guid>http://liborui.cn/project/autolink/</guid>
       <description>&lt;p&gt;With the development of the IoT industry, developers are no longer content with just prototyping a valid system but eager to create a mature IoT system that explores low power consumption or high extensibility instead.&lt;/p&gt;
 &lt;p&gt;Hence, we present AutoLink, an automatic generation system of IoT device platforms. Users may write AutoLink meta-program with an expressive syntax to specify their diverse requirements (e.g., battery lifetime, interface extensibility, execution time, and cost) of the generated IoT device platform. Taking the metaprogram as an input, AutoLink automatically transforms it into corresponding optimization problems and generates the optimal hardware conﬁguration that meets user requirements best. Towards this, AutoLink also offers a cross-platform, dutycycle-aware power model and a time model to estimate the lifetime and execution period of an IoT system. We implement AutoLink and evaluate its performance using real-world IoT applications. Results show that AutoLink generates the optimal hardware conﬁguration that meets diverse user requirements. Moreover, AutoLink achieves superior power estimation accuracy of IoT device platforms compared with the state-of-the-art approach.&lt;/p&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>TinyLink 2.0</title>
-      <link>https://liborui.github.io/project/tinylink2.0/</link>
+      <link>http://liborui.cn/project/tinylink2.0/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/project/tinylink2.0/</guid>
+      <guid>http://liborui.cn/project/tinylink2.0/</guid>
       <description>&lt;p&gt;The recent years have witnessed the rapid growth of IoT (Internet of Things) applications.
 A typical IoT application usually consists of three essential parts: the device side, the cloud side, and the client side.
 The development of a complete IoT application is very difficult for non-expert developers because it involves drastically different technologies and complex interactions between different sides.&lt;/p&gt;
@@ -40,9 +40,9 @@ Results show that TinyLink 2.0 can speed up IoT development significantly compar
     
     <item>
       <title>LinkLab</title>
-      <link>https://liborui.github.io/project/linklab/</link>
+      <link>http://liborui.cn/project/linklab/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/project/linklab/</guid>
+      <guid>http://liborui.cn/project/linklab/</guid>
       <description>&lt;p&gt;LinkLab (&lt;a href=&#34;http://linklab.tinylink.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Home Page&lt;/a&gt;) is a testbed for remotely developing and experimenting IoT applications.
 With LinkLab, IoT developers can write the application code on Web IDE, compile the code on cloud, and burn the Binary File to remote devices.&lt;/p&gt;
 &lt;p&gt;LinkLab focuses on providing developers with a user-friendly programming and experimenting environment by supplying multi-granularity allocation, naming mechanism, backup channel via USB, WebIDE, etc.&lt;/p&gt;
@@ -52,9 +52,9 @@ With LinkLab, IoT developers can write the application code on Web IDE, compile 
     
     <item>
       <title>TinyLink</title>
-      <link>https://liborui.github.io/project/tinylink/</link>
+      <link>http://liborui.cn/project/tinylink/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/project/tinylink/</guid>
+      <guid>http://liborui.cn/project/tinylink/</guid>
       <description>&lt;p&gt;Rapid development is essential for IoT (Internet of Things) application developers to obtain first-mover advantages and reduce the development cost.&lt;/p&gt;
 &lt;p&gt;We present TinyLink (&lt;a href=&#34;http://tinylink.cn/TinyLink/view/en/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Home Page&lt;/a&gt;), a holistic system for rapid development of IoT applications.
 The key idea of TinyLink is to use a top-down approach for designing both the hardware and the software of IoT applications.

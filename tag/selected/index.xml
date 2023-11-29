@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>selected | Borui @ SEU</title>
-    <link>https://liborui.github.io/tag/selected/</link>
-      <atom:link href="https://liborui.github.io/tag/selected/index.xml" rel="self" type="application/rss+xml" />
+    <title>selected | 李博睿 Borui@SEU</title>
+    <link>http://liborui.cn/tag/selected/</link>
+      <atom:link href="http://liborui.cn/tag/selected/index.xml" rel="self" type="application/rss+xml" />
     <description>selected</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>selected</title>
-      <link>https://liborui.github.io/tag/selected/</link>
+      <link>http://liborui.cn/tag/selected/</link>
     </image>
     
     <item>
       <title>LinkLab 2.0: A Multi-tenant Programmable IoT Testbed for Experimentation with Edge-Cloud Integration</title>
-      <link>https://liborui.github.io/publication/11-nsdi23-linklab/</link>
+      <link>http://liborui.cn/publication/11-nsdi23-linklab/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/11-nsdi23-linklab/</guid>
+      <guid>http://liborui.cn/publication/11-nsdi23-linklab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bringing WebAssembly to Resource-constrained IoT Devices for Seamless Device-Cloud Integration</title>
-      <link>https://liborui.github.io/publication/10-mobisys22-wait/</link>
+      <link>http://liborui.cn/publication/10-mobisys22-wait/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/10-mobisys22-wait/</guid>
+      <guid>http://liborui.cn/publication/10-mobisys22-wait/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Edge-centric Programming for IoT Applications with Automatic Code Partitioning</title>
-      <link>https://liborui.github.io/publication/9-tc22-edgeprog/</link>
+      <link>http://liborui.cn/publication/9-tc22-edgeprog/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/9-tc22-edgeprog/</guid>
+      <guid>http://liborui.cn/publication/9-tc22-edgeprog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WiProg: A WebAssembly-based Approach to Integrated IoT Programming</title>
-      <link>https://liborui.github.io/publication/5-infocom21-wiprog/</link>
+      <link>http://liborui.cn/publication/5-infocom21-wiprog/</link>
       <pubDate>Sat, 05 Dec 2020 10:40:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/5-infocom21-wiprog/</guid>
+      <guid>http://liborui.cn/publication/5-infocom21-wiprog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EdgeProg: Edge-centric Programming for IoT Applications</title>
-      <link>https://liborui.github.io/publication/2-icdcs20-edgeprog/</link>
+      <link>http://liborui.cn/publication/2-icdcs20-edgeprog/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/2-icdcs20-edgeprog/</guid>
+      <guid>http://liborui.cn/publication/2-icdcs20-edgeprog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
-      <link>https://liborui.github.io/publication/1-mobicom20-tinylink2/</link>
+      <link>http://liborui.cn/publication/1-mobicom20-tinylink2/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/1-mobicom20-tinylink2/</guid>
+      <guid>http://liborui.cn/publication/1-mobicom20-tinylink2/</guid>
       <description></description>
     </item>
     

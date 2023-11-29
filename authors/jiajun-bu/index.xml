@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jiajun Bu | Borui @ SEU</title>
-    <link>https://liborui.github.io/authors/jiajun-bu/</link>
-      <atom:link href="https://liborui.github.io/authors/jiajun-bu/index.xml" rel="self" type="application/rss+xml" />
+    <title>Jiajun Bu | 李博睿 Borui@SEU</title>
+    <link>http://liborui.cn/authors/jiajun-bu/</link>
+      <atom:link href="http://liborui.cn/authors/jiajun-bu/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiajun Bu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Dec 2020 12:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liborui.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Jiajun Bu</title>
-      <link>https://liborui.github.io/authors/jiajun-bu/</link>
+      <link>http://liborui.cn/authors/jiajun-bu/</link>
     </image>
     
     <item>
       <title>Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads</title>
-      <link>https://liborui.github.io/publication/7-tosn21-queec/</link>
+      <link>http://liborui.cn/publication/7-tosn21-queec/</link>
       <pubDate>Sun, 06 Dec 2020 12:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/7-tosn21-queec/</guid>
+      <guid>http://liborui.cn/publication/7-tosn21-queec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications</title>
-      <link>https://liborui.github.io/publication/1-mobicom20-tinylink2/</link>
+      <link>http://liborui.cn/publication/1-mobicom20-tinylink2/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://liborui.github.io/publication/1-mobicom20-tinylink2/</guid>
+      <guid>http://liborui.cn/publication/1-mobicom20-tinylink2/</guid>
       <description></description>
     </item>
     
