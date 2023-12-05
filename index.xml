@@ -81,14 +81,6 @@
     </item>
     
     <item>
-      <title>物联网软件低代码开发</title>
-      <link>https://www.liborui.cn/publication/15-cccf22-low-code/</link>
-      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.liborui.cn/publication/15-cccf22-low-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>On Modular Learning of Distributed Systems for Predicting End-to-End Latency</title>
       <link>https://www.liborui.cn/seminar/20231017/</link>
       <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
@@ -189,6 +181,14 @@
       <link>https://www.liborui.cn/publication/11-nsdi23-linklab/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://www.liborui.cn/publication/11-nsdi23-linklab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>物联网软件低代码开发</title>
+      <link>https://www.liborui.cn/publication/15-cccf22-low-code/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.liborui.cn/publication/15-cccf22-low-code/</guid>
       <description></description>
     </item>
     
