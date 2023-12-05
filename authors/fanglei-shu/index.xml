@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fanglei Shu | 李博睿 Borui@SEU</title>
-    <link>http://liborui.cn/authors/fanglei-shu/</link>
-      <atom:link href="http://liborui.cn/authors/fanglei-shu/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.liborui.cn/authors/fanglei-shu/</link>
+      <atom:link href="https://www.liborui.cn/authors/fanglei-shu/index.xml" rel="self" type="application/rss+xml" />
     <description>Fanglei Shu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Fanglei Shu</title>
-      <link>http://liborui.cn/authors/fanglei-shu/</link>
+      <link>https://www.liborui.cn/authors/fanglei-shu/</link>
     </image>
     
     <item>
       <title>TapFinger: Task Placement and Fine-Grained Resource Allocation for Edge Machine Learning</title>
-      <link>http://liborui.cn/seminar/20231114/</link>
+      <link>https://www.liborui.cn/seminar/20231114/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://liborui.cn/seminar/20231114/</guid>
+      <guid>https://www.liborui.cn/seminar/20231114/</guid>
       <description></description>
     </item>
     
