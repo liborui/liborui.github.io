@@ -5,12 +5,20 @@
     <link>http://liborui.cn/publication-type/2/</link>
       <atom:link href="http://liborui.cn/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://liborui.cn/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>http://liborui.cn/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>物联网软件低代码开发</title>
+      <link>http://liborui.cn/publication/15-cccf22-low-code/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://liborui.cn/publication/15-cccf22-low-code/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Edge-centric Programming for IoT Applications with Automatic Code Partitioning</title>
